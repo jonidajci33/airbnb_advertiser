@@ -143,7 +143,9 @@ Pacientet tuaj mund te qendrojne ne nje apartament te rehatshem dhe te pajisur p
 
 A do te ishit te interesuar per nje bashkepunim? Mund t'ua rekomandoni pacienteve tuaj si akomodimin e tyre te preferuar.
 
-Me respekt
+Me respekt,
+
+Lulebore Apartament Team
 ```
 
 ### HAIR_TRANSPLANT Template
@@ -158,7 +160,9 @@ Klientet tuaj mund te qendrojne ne nje apartament te rehatshem dhe te pajisur pl
 
 A do te ishit te interesuar per nje bashkepunim? Mund t'ua rekomandoni klienteve tuaj si akomodimin e tyre te preferuar.
 
-Me respekt
+Me respekt, 
+
+Lulebore Apartament Team
 ```
 
 ### UNKNOWN Template
@@ -173,7 +177,9 @@ Pacientet tuaj mund te qendrojne ne nje apartament te rehatshem dhe te pajisur p
 
 A do te ishit te interesuar per nje bashkepunim?
 
-Me respekt
+Me respekt,
+
+Lulebore Apartament Team
 ```
 
 ### Template Variables

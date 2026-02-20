@@ -1,0 +1,348 @@
+2026-02-20 10:05:58,673 | INFO | DRY RUN | info@dentaltrio.com | Dentist In Albania | DENTAL
+2026-02-20 10:05:58,774 | INFO | DRY RUN | dentistnetirane@gmail.com | Kontakt | DENTAL
+2026-02-20 10:05:58,874 | INFO | DRY RUN | finesadentalclinic@gmail.com | Kontakt | DENTAL
+2026-02-20 10:05:58,975 | INFO | DRY RUN | poliklinikaemerald@gmail.com | Kush Eshte Klinika Dentare Me e Mire ne Tirane? | DENTAL
+2026-02-20 10:05:59,076 | INFO | DRY RUN | info@keit.al | Hair Transplant in Albania | HAIR_TRANSPLANT
+2026-02-20 10:08:57,513 | INFO | Sending to info@dentaltrio.com | Dentist In Albania | DENTAL
+2026-02-20 10:08:58,177 | INFO | SUCCESS | info@dentaltrio.com | Dentist In Albania
+2026-02-20 10:09:08,177 | INFO | Sending to dentistnetirane@gmail.com | Kontakt | DENTAL
+2026-02-20 10:09:08,982 | INFO | SUCCESS | dentistnetirane@gmail.com | Kontakt
+2026-02-20 10:09:18,982 | INFO | Sending to finesadentalclinic@gmail.com | Kontakt | DENTAL
+2026-02-20 10:09:19,682 | INFO | SUCCESS | finesadentalclinic@gmail.com | Kontakt
+2026-02-20 10:09:29,682 | INFO | Sending to poliklinikaemerald@gmail.com | Kush Eshte Klinika Dentare Me e Mire ne Tirane? | DENTAL
+2026-02-20 10:09:30,519 | INFO | SUCCESS | poliklinikaemerald@gmail.com | Kush Eshte Klinika Dentare Me e Mire ne Tirane?
+2026-02-20 10:09:40,519 | INFO | Sending to info@keit.al | Hair Transplant in Albania | HAIR_TRANSPLANT
+2026-02-20 10:09:41,291 | INFO | SUCCESS | info@keit.al | Hair Transplant in Albania
+2026-02-20 10:09:51,291 | INFO | Sending to info@vatanmed.al | Kontakt | HAIR_TRANSPLANT
+2026-02-20 10:09:52,103 | INFO | SUCCESS | info@vatanmed.al | Kontakt
+2026-02-20 10:10:02,103 | INFO | Sending to info@dermolife.al | Dermolife Hair Clinic | HAIR_TRANSPLANT
+2026-02-20 10:10:02,735 | INFO | SUCCESS | info@dermolife.al | Dermolife Hair Clinic
+2026-02-20 11:29:40,937 | INFO | DRY RUN | info@diamond-dental.al | Diamond Dental | DENTAL
+2026-02-20 11:29:41,047 | INFO | DRY RUN | info@brianzadent.al | Contact | DENTAL
+2026-02-20 11:29:41,147 | INFO | DRY RUN | info@ufodentalclinic.com | Contact Us En | DENTAL
+2026-02-20 11:29:41,247 | INFO | DRY RUN | info@dentavacation.com | Top 10 Dental Clinics & Dentists in Tirana | DENTAL
+2026-02-20 11:29:41,348 | INFO | DRY RUN | info@bookingstomatologist.com | Dentists in Tirana | DENTAL
+2026-02-20 11:29:48,256 | INFO | Sending to info@diamond-dental.al | Diamond Dental | DENTAL
+2026-02-20 11:29:48,928 | INFO | SUCCESS | info@diamond-dental.al | Diamond Dental
+2026-02-20 11:29:58,929 | INFO | Sending to info@brianzadent.al | Contact | DENTAL
+2026-02-20 11:29:59,617 | INFO | SUCCESS | info@brianzadent.al | Contact
+2026-02-20 11:30:09,617 | INFO | Sending to info@ufodentalclinic.com | Contact Us En | DENTAL
+2026-02-20 11:30:10,287 | INFO | SUCCESS | info@ufodentalclinic.com | Contact Us En
+2026-02-20 11:30:20,287 | INFO | Sending to info@dentavacation.com | Top 10 Dental Clinics & Dentists in Tirana | DENTAL
+2026-02-20 11:30:21,107 | INFO | SUCCESS | info@dentavacation.com | Top 10 Dental Clinics & Dentists in Tirana
+2026-02-20 11:30:31,107 | INFO | Sending to info@bookingstomatologist.com | Dentists in Tirana | DENTAL
+2026-02-20 11:30:31,745 | INFO | SUCCESS | info@bookingstomatologist.com | Dentists in Tirana
+2026-02-20 11:30:41,745 | INFO | Sending to tiranadentalhospital@gmail.com | Tirana Dental Hospital Klinikë Dentare në Tiranë | DENTAL
+2026-02-20 11:30:42,322 | INFO | SUCCESS | tiranadentalhospital@gmail.com | Tirana Dental Hospital Klinikë Dentare në Tiranë
+2026-02-20 11:30:52,322 | INFO | Sending to info@klinikadentarelako.al | Klinika Dentare Lako | DENTAL
+2026-02-20 11:30:52,979 | INFO | SUCCESS | info@klinikadentarelako.al | Klinika Dentare Lako
+2026-02-20 11:31:02,979 | INFO | Sending to info@toti-gurakuqi.al | Kirurg dentar dhe dentist | DENTAL
+2026-02-20 11:31:03,694 | INFO | SUCCESS | info@toti-gurakuqi.al | Kirurg dentar dhe dentist
+2026-02-20 11:31:13,695 | INFO | Sending to contact@mjeket.al | Klinika dentare Smile Now | DENTAL
+2026-02-20 11:31:14,364 | INFO | SUCCESS | contact@mjeket.al | Klinika dentare Smile Now
+2026-02-20 11:31:24,364 | INFO | Sending to info@virtus.al | What Is the Best Dental Clinic in Tirana, Albania? | DENTAL
+2026-02-20 11:31:25,134 | INFO | SUCCESS | info@virtus.al | What Is the Best Dental Clinic in Tirana, Albania?
+2026-02-20 11:31:35,134 | INFO | Sending to info@finesadental.com | Finesa Dental | DENTAL
+2026-02-20 11:31:35,717 | INFO | SUCCESS | info@finesadental.com | Finesa Dental
+2026-02-20 11:31:45,717 | INFO | Sending to info@klinikakristi.al | Klinikë Dentare në Tiranë | DENTAL
+2026-02-20 11:31:46,320 | INFO | SUCCESS | info@klinikakristi.al | Klinikë Dentare në Tiranë
+2026-02-20 11:31:56,321 | INFO | Sending to info@dentistiinalbania.com | Gremi Clinic | DENTAL
+2026-02-20 11:31:56,989 | INFO | SUCCESS | info@dentistiinalbania.com | Gremi Clinic
+2026-02-20 11:32:06,989 | INFO | Sending to info@smile-provider.com | Cheap Dental Implants | DENTAL
+2026-02-20 11:32:07,705 | INFO | SUCCESS | info@smile-provider.com | Cheap Dental Implants
+2026-02-20 11:32:17,705 | INFO | Sending to info@familydentalcareal.com | Best Dental Implant Clinics in Albania | DENTAL
+2026-02-20 11:32:18,436 | INFO | SUCCESS | info@familydentalcareal.com | Best Dental Implant Clinics in Albania
+2026-02-20 11:32:28,436 | INFO | Sending to info@oxaclinic.com | Teeth Whitening in Oxa Clinic in Tirana. | DENTAL
+2026-02-20 11:32:29,124 | INFO | SUCCESS | info@oxaclinic.com | Teeth Whitening in Oxa Clinic in Tirana.
+2026-02-20 11:32:39,124 | INFO | Sending to finance@bookimed.com | TOP 10+ Tooth Whitening doctors in Tirana, Costs & Reviews | DENTAL
+2026-02-20 11:32:39,771 | INFO | SUCCESS | finance@bookimed.com | TOP 10+ Tooth Whitening doctors in Tirana, Costs & Reviews
+2026-02-20 11:32:49,772 | INFO | Sending to info@cdc.com.al | Teeth Whitening In Albania | DENTAL
+2026-02-20 11:32:50,375 | INFO | SUCCESS | info@cdc.com.al | Teeth Whitening In Albania
+2026-02-20 11:33:00,375 | INFO | Sending to info@whatclinic.com | Top 10+ Dentists in Tirana | DENTAL
+2026-02-20 11:33:01,050 | INFO | SUCCESS | info@whatclinic.com | Top 10+ Dentists in Tirana
+2026-02-20 11:33:11,050 | INFO | Sending to info@smile-provider.com | Dental Clinic Albania | DENTAL
+2026-02-20 11:33:11,951 | INFO | SUCCESS | info@smile-provider.com | Dental Clinic Albania
+2026-02-20 11:33:21,951 | INFO | Sending to info@endetadentalclinic.al | Endeta Dental Clinic | DENTAL
+2026-02-20 11:33:22,573 | INFO | SUCCESS | info@endetadentalclinic.al | Endeta Dental Clinic
+2026-02-20 11:33:32,573 | INFO | Sending to finance@bookimed.com | Best dentists in Tirana | DENTAL
+2026-02-20 11:33:33,332 | INFO | SUCCESS | finance@bookimed.com | Best dentists in Tirana
+2026-02-20 11:33:43,332 | INFO | Sending to info@toti-gurakuqi.al | Klinika Dentare Tiranë | DENTAL
+2026-02-20 11:33:43,939 | INFO | SUCCESS | info@toti-gurakuqi.al | Klinika Dentare Tiranë
+2026-02-20 11:33:53,940 | INFO | Sending to info@klinikakristi.al | Klinikë Dentare në Tiranë | DENTAL
+2026-02-20 11:33:54,524 | INFO | SUCCESS | info@klinikakristi.al | Klinikë Dentare në Tiranë
+2026-02-20 11:34:04,524 | INFO | Sending to orthosmiletirana@gmail.com | Dental Clinic in Tirana | DENTAL
+2026-02-20 11:34:05,110 | INFO | SUCCESS | orthosmiletirana@gmail.com | Dental Clinic in Tirana
+2026-02-20 11:34:15,111 | INFO | Sending to info@placidway.com | Find 10 Orthodontics Clinics in Tirana | DENTAL
+2026-02-20 11:34:15,712 | INFO | SUCCESS | info@placidway.com | Find 10 Orthodontics Clinics in Tirana
+2026-02-20 11:34:25,713 | INFO | Sending to info@orbisdentalcare.com | Dental Clinic in Tirana | DENTAL
+2026-02-20 11:34:27,101 | INFO | SUCCESS | info@orbisdentalcare.com | Dental Clinic in Tirana
+2026-02-20 11:34:37,101 | INFO | Sending to dent.emdo@gmail.com | EmdoDent | DENTAL
+2026-02-20 11:34:37,719 | INFO | SUCCESS | dent.emdo@gmail.com | EmdoDent
+2026-02-20 11:34:47,720 | INFO | Sending to info@qanomed.com | Best Clinics of Emergency Dentist in Albania | DENTAL
+2026-02-20 11:34:48,385 | INFO | SUCCESS | info@qanomed.com | Best Clinics of Emergency Dentist in Albania
+2026-02-20 11:34:58,385 | INFO | Sending to info@dca.al | DCA-Dental Center Albania Reviews 50 | DENTAL
+2026-02-20 11:34:58,990 | INFO | SUCCESS | info@dca.al | DCA-Dental Center Albania Reviews 50
+2026-02-20 11:35:08,991 | INFO | Sending to info@dentaltourismalbania.com | Dental Center Albania Clinic | DENTAL
+2026-02-20 11:35:09,728 | INFO | SUCCESS | info@dentaltourismalbania.com | Dental Center Albania Clinic
+2026-02-20 11:35:19,729 | INFO | Sending to klinikaledismile@gmail.com | Ledismile | DENTAL
+2026-02-20 11:35:20,406 | INFO | SUCCESS | klinikaledismile@gmail.com | Ledismile
+2026-02-20 11:35:30,407 | INFO | Sending to info@salus.al | Orthognathic surgery | DENTAL
+2026-02-20 11:35:31,112 | INFO | SUCCESS | info@salus.al | Orthognathic surgery
+2026-02-20 11:35:41,112 | INFO | Sending to info@hairsolutionclinic.com | Hair Transplant in Albania Tirana | HAIR_TRANSPLANT
+2026-02-20 11:35:41,714 | INFO | SUCCESS | info@hairsolutionclinic.com | Hair Transplant in Albania Tirana
+2026-02-20 11:35:51,714 | INFO | Sending to info@advancedfueclinic.com | Hair transplant in Albania | HAIR_TRANSPLANT
+2026-02-20 11:35:52,914 | INFO | SUCCESS | info@advancedfueclinic.com | Hair transplant in Albania
+2026-02-20 11:36:02,915 | INFO | Sending to info@istanbul-care.com | FUE Hair Transplant in Tirana | HAIR_TRANSPLANT
+2026-02-20 11:36:03,680 | INFO | SUCCESS | info@istanbul-care.com | FUE Hair Transplant in Tirana
+2026-02-20 11:36:13,680 | INFO | Sending to info@davinci.al | Hair Transplant Tirana with Micro FUE Technique | HAIR_TRANSPLANT
+2026-02-20 11:36:14,489 | INFO | SUCCESS | info@davinci.al | Hair Transplant Tirana with Micro FUE Technique
+2026-02-20 11:36:24,490 | INFO | Sending to info@estemoon.com | Hair Transplant in Albania | HAIR_TRANSPLANT
+2026-02-20 11:36:25,176 | INFO | SUCCESS | info@estemoon.com | Hair Transplant in Albania
+2026-02-20 11:36:35,176 | INFO | Sending to info@internationalhairclinic.com | International Hair Clinic | HAIR_TRANSPLANT
+2026-02-20 11:36:35,860 | INFO | SUCCESS | info@internationalhairclinic.com | International Hair Clinic
+2026-02-20 11:36:45,860 | INFO | Sending to info@nouvelleclinique.com | Best hair transplant clinic in Albania for natural results | HAIR_TRANSPLANT
+2026-02-20 11:36:46,492 | INFO | SUCCESS | info@nouvelleclinique.com | Best hair transplant clinic in Albania for natural results
+2026-02-20 11:36:56,492 | INFO | Sending to info@advancedfueclinic.comadresa | KLINIKE PER MBJELLJE FLOKU | HAIR_TRANSPLANT
+2026-02-20 11:36:57,047 | INFO | SUCCESS | info@advancedfueclinic.comadresa | KLINIKE PER MBJELLJE FLOKU
+2026-02-20 11:37:07,047 | INFO | Sending to klinikaledismile@gmail.com | Klinike Dentare Ledismile | DENTAL
+2026-02-20 11:37:07,789 | INFO | SUCCESS | klinikaledismile@gmail.com | Klinike Dentare Ledismile
+2026-02-20 11:37:17,789 | INFO | Sending to info@empiredentalclinic.al | Empire Dental Clinic | DENTAL
+2026-02-20 11:37:18,516 | INFO | SUCCESS | info@empiredentalclinic.al | Empire Dental Clinic
+2026-02-20 11:37:26,024 | INFO | DRY RUN | tiranadentalhospital@gmail.com | TIRANA DENTAL HOSPITAL | DENTAL
+2026-02-20 11:37:26,124 | INFO | DRY RUN | info@dca.al | Dental Center Albania | DENTAL
+2026-02-20 11:37:26,225 | INFO | DRY RUN | info@dentalcareone.com | DentalCare One | DENTAL
+2026-02-20 11:37:26,325 | INFO | DRY RUN | info@dentiavita.com | Denti a Vita | DENTAL
+2026-02-20 11:37:26,426 | INFO | DRY RUN | dentaltirana8@gmail.com | Dental Tirana | DENTAL
+2026-02-20 11:37:26,526 | INFO | DRY RUN | info@implantus.al | Implantus by Dr. Roland Zhuka | DENTAL
+2026-02-20 11:37:26,627 | INFO | DRY RUN | info@dr-rolandzhuka.com | Dr. Roland Zhuka | DENTAL
+2026-02-20 11:37:26,727 | INFO | DRY RUN | info@implant-house.al | Implant House Albania | DENTAL
+2026-02-20 11:37:26,828 | INFO | DRY RUN | info@brianzadent.al | Brianza Dent | DENTAL
+2026-02-20 11:37:26,929 | INFO | DRY RUN | info@klinikadentarelako.al | Klinika Dentare Lako | DENTAL
+2026-02-20 11:37:28,516 | INFO | Sending to tiranadentalhospital@gmail.com | TIRANA DENTAL HOSPITAL | DENTAL
+2026-02-20 11:37:30,575 | INFO | SUCCESS | tiranadentalhospital@gmail.com | TIRANA DENTAL HOSPITAL
+2026-02-20 11:37:40,588 | INFO | Sending to info@dca.al | Dental Center Albania | DENTAL
+2026-02-20 11:37:41,223 | INFO | SUCCESS | info@dca.al | Dental Center Albania
+2026-02-20 11:37:51,223 | INFO | Sending to info@dentalcareone.com | DentalCare One | DENTAL
+2026-02-20 11:37:51,901 | INFO | SUCCESS | info@dentalcareone.com | DentalCare One
+2026-02-20 11:38:01,902 | INFO | Sending to info@dentiavita.com | Denti a Vita | DENTAL
+2026-02-20 11:38:02,640 | INFO | SUCCESS | info@dentiavita.com | Denti a Vita
+2026-02-20 11:38:12,640 | INFO | Sending to dentaltirana8@gmail.com | Dental Tirana | DENTAL
+2026-02-20 11:38:13,422 | INFO | SUCCESS | dentaltirana8@gmail.com | Dental Tirana
+2026-02-20 11:38:23,422 | INFO | Sending to info@implantus.al | Implantus by Dr. Roland Zhuka | DENTAL
+2026-02-20 11:38:24,158 | INFO | SUCCESS | info@implantus.al | Implantus by Dr. Roland Zhuka
+2026-02-20 11:38:33,794 | INFO | Sending to info@dr-rolandzhuka.com | Dr. Roland Zhuka | DENTAL
+2026-02-20 11:38:34,158 | INFO | Sending to info@dr-rolandzhuka.com | Dr. Roland Zhuka | DENTAL
+2026-02-20 11:38:34,399 | INFO | SUCCESS | info@dr-rolandzhuka.com | Dr. Roland Zhuka
+2026-02-20 11:38:34,812 | INFO | SUCCESS | info@dr-rolandzhuka.com | Dr. Roland Zhuka
+2026-02-20 11:38:44,400 | INFO | Sending to info@implant-house.al | Implant House Albania | DENTAL
+2026-02-20 11:38:45,125 | INFO | SUCCESS | info@implant-house.al | Implant House Albania
+2026-02-20 11:38:55,125 | INFO | Sending to info@brianzadent.al | Brianza Dent | DENTAL
+2026-02-20 11:38:55,774 | INFO | SUCCESS | info@brianzadent.al | Brianza Dent
+2026-02-20 11:39:05,775 | INFO | Sending to info@klinikadentarelako.al | Klinika Dentare Lako | DENTAL
+2026-02-20 11:39:06,541 | INFO | SUCCESS | info@klinikadentarelako.al | Klinika Dentare Lako
+2026-02-20 11:39:16,541 | INFO | Sending to info@website.com | Klinika Dentare Koral | DENTAL
+2026-02-20 11:39:17,134 | INFO | SUCCESS | info@website.com | Klinika Dentare Koral
+2026-02-20 11:39:27,134 | INFO | Sending to info@aicdent.al | Sota Dental, Advanced Implantology Center | DENTAL
+2026-02-20 11:39:27,830 | INFO | SUCCESS | info@aicdent.al | Sota Dental, Advanced Implantology Center
+2026-02-20 11:39:37,830 | INFO | Sending to orthosmiletirana@gmail.com | Ortho Smile Dental Clinic | DENTAL
+2026-02-20 11:39:38,456 | INFO | SUCCESS | orthosmiletirana@gmail.com | Ortho Smile Dental Clinic
+2026-02-20 11:39:48,457 | INFO | Sending to klinikaortholux@gmail.com | Klinika OrthoLUX | DENTAL
+2026-02-20 11:39:49,029 | INFO | SUCCESS | klinikaortholux@gmail.com | Klinika OrthoLUX
+2026-02-20 11:39:59,029 | INFO | Sending to info@aidendental.al | Klinika Dentare Aiden Dental | DENTAL
+2026-02-20 11:39:59,590 | INFO | SUCCESS | info@aidendental.al | Klinika Dentare Aiden Dental
+2026-02-20 11:40:09,591 | INFO | Sending to info@dentista-estero.net | International Dental Clinic | DENTAL
+2026-02-20 11:40:10,183 | INFO | SUCCESS | info@dentista-estero.net | International Dental Clinic
+2026-02-20 11:40:20,183 | INFO | Sending to qsut@shendetesia.gov.al | Spitali Nr 2 (Kirurgjia) | DENTAL
+2026-02-20 11:40:20,836 | INFO | SUCCESS | qsut@shendetesia.gov.al | Spitali Nr 2 (Kirurgjia)
+2026-02-20 11:40:30,837 | INFO | Sending to info@diamond-dental.al | Diamond Dental Hospital | DENTAL
+2026-02-20 11:40:31,381 | INFO | SUCCESS | info@diamond-dental.al | Diamond Dental Hospital
+2026-02-20 11:40:41,381 | INFO | Sending to info@cdc.com.al | City Dental Clinic CDC | DENTAL
+2026-02-20 11:40:42,022 | INFO | SUCCESS | info@cdc.com.al | City Dental Clinic CDC
+2026-02-20 11:40:52,022 | INFO | Sending to info@vrionidental.com | Klinika Dentare Vrioni( Vrioni Dental) | DENTAL
+2026-02-20 11:40:52,622 | INFO | SUCCESS | info@vrionidental.com | Klinika Dentare Vrioni( Vrioni Dental)
+2026-02-20 11:41:02,622 | INFO | Sending to preventivo.dentalplatinum@gmail.com | Platinum Dental Clinic | DENTAL
+2026-02-20 11:41:03,463 | INFO | SUCCESS | preventivo.dentalplatinum@gmail.com | Platinum Dental Clinic
+2026-02-20 11:41:13,464 | INFO | Sending to info@smile-provider.com | Smile Provider | DENTAL
+2026-02-20 11:41:14,107 | INFO | SUCCESS | info@smile-provider.com | Smile Provider
+2026-02-20 11:41:24,134 | INFO | Sending to info@dentialbania.com | Clinica Dentale Golden Dental | DENTAL
+2026-02-20 11:41:24,841 | INFO | SUCCESS | info@dentialbania.com | Clinica Dentale Golden Dental
+2026-02-20 11:41:34,842 | INFO | Sending to info@odontica.al | Klinika Dentare ODONTICA | DENTAL
+2026-02-20 11:41:35,397 | INFO | SUCCESS | info@odontica.al | Klinika Dentare ODONTICA
+2026-02-20 11:41:45,397 | INFO | Sending to info@dentale-albania.com | Dentale Albania | DENTAL
+2026-02-20 11:41:45,987 | INFO | SUCCESS | info@dentale-albania.com | Dentale Albania
+2026-02-20 11:41:55,987 | INFO | Sending to info@classdentist.com | ClassDent | DENTAL
+2026-02-20 11:41:56,552 | INFO | SUCCESS | info@classdentist.com | ClassDent
+2026-02-20 11:42:06,552 | INFO | Sending to unikdentalcenter@gmail.com | Unic Dental Center | DENTAL
+2026-02-20 11:42:07,282 | INFO | SUCCESS | unikdentalcenter@gmail.com | Unic Dental Center
+2026-02-20 11:42:17,282 | INFO | Sending to dentitalia.info@gmail.com | DENT ITALIA | DENTAL
+2026-02-20 11:42:17,998 | INFO | SUCCESS | dentitalia.info@gmail.com | DENT ITALIA
+2026-02-20 11:42:27,998 | INFO | Sending to info@virtus.al | Virtus Dental Center | DENTAL
+2026-02-20 11:42:28,607 | INFO | SUCCESS | info@virtus.al | Virtus Dental Center
+2026-02-20 11:42:38,607 | INFO | Sending to info@zeusdentalclinic.com | Zeus Dental Clinic | DENTAL
+2026-02-20 11:42:39,215 | INFO | SUCCESS | info@zeusdentalclinic.com | Zeus Dental Clinic
+2026-02-20 11:42:49,215 | INFO | Sending to info@theclinic.al | The Clinic Tirana | DENTAL
+2026-02-20 11:42:49,713 | INFO | SUCCESS | info@theclinic.al | The Clinic Tirana
+2026-02-20 11:42:59,713 | INFO | Sending to eartdent222@gmail.com | Klinike Dentare Durres | DENTAL
+2026-02-20 11:43:00,282 | INFO | SUCCESS | eartdent222@gmail.com | Klinike Dentare Durres
+2026-02-20 11:43:10,282 | INFO | Sending to poliklinikaemerald@gmail.com | Emerald Dental | DENTAL
+2026-02-20 11:43:10,887 | INFO | SUCCESS | poliklinikaemerald@gmail.com | Emerald Dental
+2026-02-20 11:43:20,888 | INFO | Sending to info@dentaltrio.com | Trio Dental Center | DENTAL
+2026-02-20 11:43:21,479 | INFO | SUCCESS | info@dentaltrio.com | Trio Dental Center
+2026-02-20 11:43:31,479 | INFO | Sending to info@oxaclinic.com | Oxa Clinic | DENTAL
+2026-02-20 11:43:32,062 | INFO | SUCCESS | info@oxaclinic.com | Oxa Clinic
+2026-02-20 11:43:42,062 | INFO | Sending to albaniainfo@kissdent.infocall | Dental Clinic KissDent | DENTAL
+2026-02-20 11:43:42,683 | INFO | SUCCESS | albaniainfo@kissdent.infocall | Dental Clinic KissDent
+2026-02-20 11:43:52,683 | INFO | Sending to info@familydentalcareal.com | Family Dental Care | DENTAL
+2026-02-20 11:43:53,307 | INFO | SUCCESS | info@familydentalcareal.com | Family Dental Care
+2026-02-20 11:44:03,307 | INFO | Sending to info@newsmile.al | Klinika Dentare New Smile | DENTAL
+2026-02-20 11:44:03,850 | INFO | SUCCESS | info@newsmile.al | Klinika Dentare New Smile
+2026-02-20 11:44:13,850 | INFO | Sending to info@toti-gurakuqi.al | Klinika Dentare Toti & Gurakuqi | DENTAL
+2026-02-20 11:44:14,374 | INFO | SUCCESS | info@toti-gurakuqi.al | Klinika Dentare Toti & Gurakuqi
+2026-02-20 11:44:24,374 | INFO | Sending to b.e.l.dentclinic@gmail.com | B.E.L. Dent | DENTAL
+2026-02-20 11:44:24,963 | INFO | SUCCESS | b.e.l.dentclinic@gmail.com | B.E.L. Dent
+2026-02-20 11:44:34,963 | INFO | Sending to klinikadentarevraja@yahoo.com | Klinika Dentare Vraja | DENTAL
+2026-02-20 11:44:35,579 | INFO | SUCCESS | klinikadentarevraja@yahoo.com | Klinika Dentare Vraja
+2026-02-20 11:44:45,579 | INFO | Sending to info@lineadental.al | Klinika Dentare Linea | DENTAL
+2026-02-20 11:44:46,328 | INFO | SUCCESS | info@lineadental.al | Klinika Dentare Linea
+2026-02-20 11:44:56,328 | INFO | Sending to web@dentalnobel.com | Klinika Dentare Nobel | DENTAL
+2026-02-20 11:44:56,935 | INFO | SUCCESS | web@dentalnobel.com | Klinika Dentare Nobel
+2026-02-20 11:45:06,936 | INFO | Sending to info@matdental.com | Mat Dental | DENTAL
+2026-02-20 11:45:07,539 | INFO | SUCCESS | info@matdental.com | Mat Dental
+2026-02-20 11:45:17,540 | INFO | Sending to contatto@esempio.it | Klinika Dentare A. Shabani | DENTAL
+2026-02-20 11:45:18,282 | INFO | SUCCESS | contatto@esempio.it | Klinika Dentare A. Shabani
+2026-02-20 11:45:28,282 | INFO | Sending to info@drteeth.al | Dr Teeth Klinike Dentare | DENTAL
+2026-02-20 11:45:28,932 | INFO | SUCCESS | info@drteeth.al | Dr Teeth Klinike Dentare
+2026-02-20 11:45:38,932 | INFO | Sending to info@masterdent.al | MasterDent | DENTAL
+2026-02-20 11:45:40,205 | INFO | SUCCESS | info@masterdent.al | MasterDent
+2026-02-20 11:45:50,206 | INFO | Sending to dent.aurum.al@gmail.com | DentAurum | DENTAL
+2026-02-20 11:45:50,890 | INFO | SUCCESS | dent.aurum.al@gmail.com | DentAurum
+2026-02-20 11:46:00,891 | INFO | Sending to mezinident@gmail.com | Mezini Dent klinikë dhe laborator dentar | DENTAL
+2026-02-20 11:46:01,612 | INFO | SUCCESS | mezinident@gmail.com | Mezini Dent klinikë dhe laborator dentar
+2026-02-20 11:46:11,612 | INFO | Sending to info@inalbania.al | Dental • Klinike Dentare | DENTAL
+2026-02-20 11:46:12,249 | INFO | SUCCESS | info@inalbania.al | Dental • Klinike Dentare
+2026-02-20 11:46:22,249 | INFO | Sending to info@manjanidental.com | Manjani Dental (Turismo Dentale)Dr.Sokol Manjani | DENTAL
+2026-02-20 11:46:22,950 | INFO | SUCCESS | info@manjanidental.com | Manjani Dental (Turismo Dentale)Dr.Sokol Manjani
+2026-02-20 11:46:32,950 | INFO | Sending to info@albest.al | Klinike Dentare & Laborator Dr. Entela Hoxha | DENTAL
+2026-02-20 11:46:33,623 | INFO | SUCCESS | info@albest.al | Klinike Dentare & Laborator Dr. Entela Hoxha
+2026-02-20 11:46:43,623 | INFO | Sending to info@mariusidentalclinic.com | Mariusi Dental Clinic | DENTAL
+2026-02-20 11:46:44,262 | INFO | SUCCESS | info@mariusidentalclinic.com | Mariusi Dental Clinic
+2026-02-20 11:46:54,262 | INFO | Sending to info@creadent.al | CreaDent | DENTAL
+2026-02-20 11:46:54,932 | INFO | SUCCESS | info@creadent.al | CreaDent
+2026-02-20 11:47:04,932 | INFO | Sending to klinika@albdental.com | Klinika AlbdentaL | DENTAL
+2026-02-20 11:47:05,565 | INFO | SUCCESS | klinika@albdental.com | Klinika AlbdentaL
+2026-02-20 11:47:15,565 | INFO | Sending to info@endetadentalclinic.al | Endeta Dental Clinic | DENTAL
+2026-02-20 11:47:16,370 | INFO | SUCCESS | info@endetadentalclinic.al | Endeta Dental Clinic
+2026-02-20 11:47:26,370 | INFO | Sending to premiumdentalcare2024@gmail.com | Premium Dental Care | DENTAL
+2026-02-20 11:47:27,073 | INFO | SUCCESS | premiumdentalcare2024@gmail.com | Premium Dental Care
+2026-02-20 11:47:37,073 | INFO | Sending to info@radiance.al | Radiance Dental Hospital | DENTAL
+2026-02-20 11:47:37,763 | INFO | SUCCESS | info@radiance.al | Radiance Dental Hospital
+2026-02-20 11:47:47,763 | INFO | Sending to info@mail.com | CINQ Dentistry | DENTAL
+2026-02-20 11:47:48,499 | INFO | SUCCESS | info@mail.com | CINQ Dentistry
+2026-02-20 11:47:58,499 | INFO | Sending to info@cstdentalclinic.it | Clinica del Sorriso Tirana | DENTAL
+2026-02-20 11:47:59,078 | INFO | SUCCESS | info@cstdentalclinic.it | Clinica del Sorriso Tirana
+2026-02-20 11:48:09,078 | INFO | Sending to klinike.laura.dent@gmail.com | Laura Dent | DENTAL
+2026-02-20 11:48:09,746 | INFO | SUCCESS | klinike.laura.dent@gmail.com | Laura Dent
+2026-02-20 11:48:19,746 | INFO | Sending to amidentaldurres@gmail.com | Ami Dental | DENTAL
+2026-02-20 11:48:20,309 | INFO | SUCCESS | amidentaldurres@gmail.com | Ami Dental
+2026-02-20 11:48:30,309 | INFO | Sending to danielkurti1982@gmail.com | Dental Center Durres | DENTAL
+2026-02-20 11:48:30,862 | INFO | SUCCESS | danielkurti1982@gmail.com | Dental Center Durres
+2026-02-20 11:48:40,862 | INFO | Sending to info@surrideodentalcare.com | Surrideo Dental Care | DENTAL
+2026-02-20 11:48:41,406 | INFO | SUCCESS | info@surrideodentalcare.com | Surrideo Dental Care
+2026-02-20 11:48:51,406 | INFO | Sending to tuoindirizzo@email.com | Albanian Dental Travel- Dental Clinic | DENTAL
+2026-02-20 11:48:52,078 | INFO | SUCCESS | tuoindirizzo@email.com | Albanian Dental Travel- Dental Clinic
+2026-02-20 11:49:02,078 | INFO | Sending to info@vitaldent.com | Klinika VitalDent | DENTAL
+2026-02-20 11:49:02,581 | INFO | SUCCESS | info@vitaldent.com | Klinika VitalDent
+2026-02-20 11:49:12,581 | INFO | Sending to info@ertaxhanari.com | Dr.Erta Dental Clinic | DENTAL
+2026-02-20 11:49:13,233 | INFO | SUCCESS | info@ertaxhanari.com | Dr.Erta Dental Clinic
+2026-02-20 11:49:23,233 | INFO | Sending to info@florentiadent.com | Florentia Dent Dental Tourism | DENTAL
+2026-02-20 11:49:23,868 | INFO | SUCCESS | info@florentiadent.com | Florentia Dent Dental Tourism
+2026-02-20 11:49:33,868 | INFO | Sending to studio@sorrisodental.al | Sorriso Dental Studio | DENTAL
+2026-02-20 11:49:34,463 | INFO | SUCCESS | studio@sorrisodental.al | Sorriso Dental Studio
+2026-02-20 11:49:44,463 | INFO | Sending to info@dental-estetik.al | Dental Estetik | DENTAL
+2026-02-20 11:49:45,106 | INFO | SUCCESS | info@dental-estetik.al | Dental Estetik
+2026-02-20 11:49:55,106 | INFO | Sending to info@dentdinamo.com | Dent Dinamo | DENTAL
+2026-02-20 11:49:55,783 | INFO | SUCCESS | info@dentdinamo.com | Dent Dinamo
+2026-02-20 11:50:05,783 | INFO | Sending to info@dodbibadental.al | Dodbiba Dental | DENTAL
+2026-02-20 11:50:06,484 | INFO | SUCCESS | info@dodbibadental.al | Dodbiba Dental
+2026-02-20 11:50:16,485 | INFO | Sending to info@dentalcarealbania.com | Dental Care Albania | DENTAL
+2026-02-20 11:50:17,185 | INFO | SUCCESS | info@dentalcarealbania.com | Dental Care Albania
+2026-02-20 11:50:27,185 | INFO | Sending to info@benarda.com | Dr. Benarda Beqaraj | DENTAL
+2026-02-20 11:50:27,866 | INFO | SUCCESS | info@benarda.com | Dr. Benarda Beqaraj
+2026-02-20 11:50:37,866 | INFO | Sending to marcolicata69@gmail.com | Marco Licata Dental | DENTAL
+2026-02-20 11:50:38,484 | INFO | SUCCESS | marcolicata69@gmail.com | Marco Licata Dental
+2026-02-20 11:50:48,484 | INFO | Sending to hi@beacon.io | OÇO Dental Clinic in Tirana | DENTAL
+2026-02-20 11:50:49,214 | INFO | SUCCESS | hi@beacon.io | OÇO Dental Clinic in Tirana
+2026-02-20 11:50:59,214 | INFO | Sending to info@deltadentacademy.com | Delta Dent Academy | DENTAL
+2026-02-20 11:50:59,829 | INFO | SUCCESS | info@deltadentacademy.com | Delta Dent Academy
+2026-02-20 11:51:09,830 | INFO | Sending to info@dentalandbeauty.it | Dental & Beauty | DENTAL
+2026-02-20 11:51:10,495 | INFO | SUCCESS | info@dentalandbeauty.it | Dental & Beauty
+2026-02-20 11:51:20,495 | INFO | Sending to ikaraj93@gmail.com | I Care Dental Clinic | DENTAL
+2026-02-20 11:51:21,683 | INFO | SUCCESS | ikaraj93@gmail.com | I Care Dental Clinic
+2026-02-20 11:51:31,683 | INFO | Sending to info@amadentistry.com | Kinder Dental | DENTAL
+2026-02-20 11:51:32,393 | INFO | SUCCESS | info@amadentistry.com | Kinder Dental
+2026-02-20 11:51:42,393 | INFO | Sending to dentalvitaturismodentale@gmail.com | DENTALVITA ALBANIA | DENTAL
+2026-02-20 11:51:43,012 | INFO | SUCCESS | dentalvitaturismodentale@gmail.com | DENTALVITA ALBANIA
+2026-02-20 11:51:53,012 | INFO | Sending to info@mysite.com | Aventus Dental Clinic | DENTAL
+2026-02-20 11:51:53,633 | INFO | SUCCESS | info@mysite.com | Aventus Dental Clinic
+2026-02-20 11:52:03,633 | INFO | Sending to metodosopranzi@gmail.com | Massimo Sopranzi Dental | DENTAL
+2026-02-20 11:52:04,244 | INFO | SUCCESS | metodosopranzi@gmail.com | Massimo Sopranzi Dental
+2026-02-20 11:52:14,244 | INFO | Sending to info@family-dental.it | Family Dental | DENTAL
+2026-02-20 11:52:14,821 | INFO | SUCCESS | info@family-dental.it | Family Dental
+2026-02-20 11:52:24,822 | INFO | Sending to info@dentalcarealbania.com | Dental Care Albania | DENTAL
+2026-02-20 11:52:25,611 | INFO | SUCCESS | info@dentalcarealbania.com | Dental Care Albania
+2026-02-20 11:52:35,612 | INFO | Sending to info@turistasorridente.it | Turista Sorridente | DENTAL
+2026-02-20 11:52:36,241 | INFO | SUCCESS | info@turistasorridente.it | Turista Sorridente
+2026-02-20 11:52:46,242 | INFO | Sending to info@klejdent.com | Klejdent Klinike Dentare | DENTAL
+2026-02-20 11:52:46,961 | INFO | SUCCESS | info@klejdent.com | Klejdent Klinike Dentare
+2026-02-20 11:52:56,961 | INFO | Sending to info@hygeiadent.com | Hygeia Dent | DENTAL
+2026-02-20 11:52:57,552 | INFO | SUCCESS | info@hygeiadent.com | Hygeia Dent
+2026-02-20 11:53:07,552 | INFO | Sending to info@dentalhealth.al | Dental Health | DENTAL
+2026-02-20 11:53:08,165 | INFO | SUCCESS | info@dentalhealth.al | Dental Health
+2026-02-20 11:53:18,165 | INFO | Sending to info@finesadental.com | Finesa Dental Clinic | DENTAL
+2026-02-20 11:53:18,770 | INFO | SUCCESS | info@finesadental.com | Finesa Dental Clinic
+2026-02-20 11:53:28,770 | INFO | Sending to adctirana@gmail.com | Arion Dental Care | DENTAL
+2026-02-20 11:53:29,396 | INFO | SUCCESS | adctirana@gmail.com | Arion Dental Care
+2026-02-20 11:53:39,396 | INFO | Sending to info@tarjadentalclinic.com | Tarja Dental Clinic | DENTAL
+2026-02-20 11:53:40,114 | INFO | SUCCESS | info@tarjadentalclinic.com | Tarja Dental Clinic
+2026-02-20 11:53:50,115 | INFO | Sending to info@dentists.al | Klinika Dentare KeolDent | DENTAL
+2026-02-20 11:53:50,958 | INFO | SUCCESS | info@dentists.al | Klinika Dentare KeolDent
+2026-02-20 11:54:00,959 | INFO | Sending to celamiaurora@gmail.com | Klinika Amici Dent | DENTAL
+2026-02-20 11:54:01,738 | INFO | SUCCESS | celamiaurora@gmail.com | Klinika Amici Dent
+2026-02-20 11:54:11,738 | INFO | Sending to info@medicaltourisminalbania.com | Medical Tourism Albania | DENTAL
+2026-02-20 11:54:12,396 | INFO | SUCCESS | info@medicaltourisminalbania.com | Medical Tourism Albania
+2026-02-20 11:54:22,396 | INFO | Sending to info@albmedtour.it | Albania Medical Tour | DENTAL
+2026-02-20 11:54:23,153 | INFO | SUCCESS | info@albmedtour.it | Albania Medical Tour
+2026-02-20 11:54:33,153 | INFO | Sending to info@dentisti-albania.it | Infinity Dental Clinic | DENTAL
+2026-02-20 11:54:33,732 | INFO | SUCCESS | info@dentisti-albania.it | Infinity Dental Clinic
+2026-02-20 11:54:43,733 | INFO | Sending to info@dentadent.al | DentaDent Clinic | DENTAL
+2026-02-20 11:54:44,277 | INFO | SUCCESS | info@dentadent.al | DentaDent Clinic
+2026-02-20 11:54:54,277 | INFO | Sending to example@mail.com | Queen Dental | DENTAL
+2026-02-20 11:54:54,874 | INFO | SUCCESS | example@mail.com | Queen Dental
+2026-02-20 11:55:04,874 | INFO | Sending to 2mdentalcliniclab@gmail.com | 2M Dental Clinic & Laborator | DENTAL
+2026-02-20 11:55:05,900 | INFO | SUCCESS | 2mdentalcliniclab@gmail.com | 2M Dental Clinic & Laborator
+2026-02-20 11:55:15,900 | INFO | Sending to info@sanmarcodental.com | San Marco Dental | DENTAL
+2026-02-20 11:55:16,604 | INFO | SUCCESS | info@sanmarcodental.com | San Marco Dental
+2026-02-20 11:55:26,604 | INFO | Sending to dreamdentaltirana@gmail.com | Dream Dental Clinic (Eda&Gelda) | DENTAL
+2026-02-20 11:55:27,242 | INFO | SUCCESS | dreamdentaltirana@gmail.com | Dream Dental Clinic (Eda&Gelda)
+2026-02-20 11:55:37,242 | INFO | Sending to info@travelandsmile.co.uk | Travel And Smile Dental Clinic | DENTAL
+2026-02-20 11:55:37,866 | INFO | SUCCESS | info@travelandsmile.co.uk | Travel And Smile Dental Clinic
+2026-02-20 11:55:47,866 | INFO | Sending to contact@mbtdentalpro.com | Mbt Dental Clinic | DENTAL
+2026-02-20 11:55:48,512 | INFO | SUCCESS | contact@mbtdentalpro.com | Mbt Dental Clinic
+2026-02-20 11:55:58,512 | INFO | Sending to info@test.com | White Dental Clinic (WDC) | DENTAL
+2026-02-20 11:55:59,229 | INFO | SUCCESS | info@test.com | White Dental Clinic (WDC)
+2026-02-20 11:56:09,229 | INFO | Sending to info@ajnadental.al | Ajna Dental Clinic | DENTAL
+2026-02-20 11:56:09,829 | INFO | SUCCESS | info@ajnadental.al | Ajna Dental Clinic
+2026-02-20 11:56:19,829 | INFO | Sending to info@aldental.al | AL Dental Clinic | DENTAL
+2026-02-20 11:56:20,549 | INFO | SUCCESS | info@aldental.al | AL Dental Clinic
+2026-02-20 11:56:30,550 | INFO | Sending to info@dalux.al | DaLux Dental Clinic | DENTAL
+2026-02-20 11:56:31,226 | INFO | SUCCESS | info@dalux.al | DaLux Dental Clinic
+2026-02-20 11:56:41,226 | INFO | Sending to info@ambeldentalclinic.al | Ambel Dental Clinic | DENTAL
+2026-02-20 11:56:42,074 | INFO | SUCCESS | info@ambeldentalclinic.al | Ambel Dental Clinic
+2026-02-20 11:56:52,075 | INFO | Sending to info@sulajdentalclinic.com | Sulaj Dental Clinic | DENTAL
+2026-02-20 11:56:52,761 | INFO | SUCCESS | info@sulajdentalclinic.com | Sulaj Dental Clinic
+2026-02-20 11:57:02,762 | INFO | Sending to info@dential.net | Dential | DENTAL
+2026-02-20 11:57:03,468 | INFO | SUCCESS | info@dential.net | Dential
+2026-02-20 11:57:13,469 | INFO | Sending to contact@trusmile.com | Diamanti Elite Dental Clinic | DENTAL
+2026-02-20 11:57:14,084 | INFO | SUCCESS | contact@trusmile.com | Diamanti Elite Dental Clinic
+2026-02-20 11:57:24,084 | INFO | Sending to info@dentalcarealbania.com | Dental Care Albania | DENTAL
+2026-02-20 11:57:24,719 | INFO | SUCCESS | info@dentalcarealbania.com | Dental Care Albania
