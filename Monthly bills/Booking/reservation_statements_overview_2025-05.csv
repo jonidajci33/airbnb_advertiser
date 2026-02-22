@@ -1,0 +1,4 @@
+"Reservation number","Invoice number","Booked on","Arrival","Departure","Booker name","Guest name","Rooms","Persons","Room nights","Commission %","Original amount","Final amount","Commission amount","Status","Guest request","Currency","Hotel id","Property name","City","Country"
+"4578609982","1630774886","2025-04-29T16:51:15","2025-04-30","2025-05-05","Carlos Ballesteros","Carlos Ballesteros","1","3","5","12.00","263.415","263.4146","31.6098","OK","","EUR","11461777","Lulebore Apartament 1","Tirana","Albania"
+"4675521814","1630774886","2025-05-12T23:00:39","2025-05-13","2025-05-15","Anna Bolyukh","Anna Bolyukh","1","2","2","12.00","105.366","105.3659","12.6439","OK","","EUR","11461777","Lulebore Apartament 1","Tirana","Albania"
+"4839448129","1630774886","2025-05-08T13:51:51","2025-05-16","2025-05-19","Roberta Esposito","Roberta Esposito","1","2","0","12.00","162.000","0.0000","0.0000","CANCELLED","","EUR","11461777","Lulebore Apartament 1","Tirana","Albania"

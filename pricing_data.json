@@ -1,0 +1,946 @@
+{
+  "generated": "2026-02-21T23:10:20.033287",
+  "data_source": "31 nearby competitors (max 3 guests)",
+  "recommendations": [
+    {
+      "month_number": 1,
+      "month_name": "January",
+      "season": "Off Season",
+      "recommended_rate_eur": 36.0,
+      "rate_range_min_eur": 32,
+      "rate_range_max_eur": 40,
+      "current_rate_eur": 45,
+      "competitor_avg_rate_eur": 35,
+      "competitor_median_rate_eur": 35,
+      "expected_occupancy_pct": 18.3,
+      "expected_revenue_eur": 216.0,
+      "current_revenue_eur": 90,
+      "competitor_revenue_eur": 385,
+      "revenue_uplift_eur": 126.0,
+      "revenue_uplift_pct": 140.0,
+      "demand_index": 9,
+      "demand_adjustment": 0.85,
+      "rating_premium_applied": 1.085
+    },
+    {
+      "month_number": 2,
+      "month_name": "February",
+      "season": "Off Season",
+      "recommended_rate_eur": 35.0,
+      "rate_range_min_eur": 32,
+      "rate_range_max_eur": 38,
+      "current_rate_eur": 45,
+      "competitor_avg_rate_eur": 35,
+      "competitor_median_rate_eur": 35,
+      "expected_occupancy_pct": 24.7,
+      "expected_revenue_eur": 245.0,
+      "current_revenue_eur": 180,
+      "competitor_revenue_eur": 350,
+      "revenue_uplift_eur": 65.0,
+      "revenue_uplift_pct": 36.1,
+      "demand_index": 21,
+      "demand_adjustment": 0.85,
+      "rating_premium_applied": 1.085
+    },
+    {
+      "month_number": 3,
+      "month_name": "March",
+      "season": "Shoulder",
+      "recommended_rate_eur": 38.0,
+      "rate_range_min_eur": 34,
+      "rate_range_max_eur": 42,
+      "current_rate_eur": 45,
+      "competitor_avg_rate_eur": 41,
+      "competitor_median_rate_eur": 40,
+      "expected_occupancy_pct": 32.7,
+      "expected_revenue_eur": 380.0,
+      "current_revenue_eur": 360,
+      "competitor_revenue_eur": 533,
+      "revenue_uplift_eur": 20.0,
+      "revenue_uplift_pct": 5.6,
+      "demand_index": 33,
+      "demand_adjustment": 0.85,
+      "rating_premium_applied": 1.085
+    },
+    {
+      "month_number": 4,
+      "month_name": "April",
+      "season": "Shoulder",
+      "recommended_rate_eur": 53.0,
+      "rate_range_min_eur": 48,
+      "rate_range_max_eur": 58,
+      "current_rate_eur": 45,
+      "competitor_avg_rate_eur": 41,
+      "competitor_median_rate_eur": 40,
+      "expected_occupancy_pct": 37.9,
+      "expected_revenue_eur": 583.0,
+      "current_revenue_eur": 540,
+      "competitor_revenue_eur": 533,
+      "revenue_uplift_eur": 43.0,
+      "revenue_uplift_pct": 8.0,
+      "demand_index": 50,
+      "demand_adjustment": 1.15,
+      "rating_premium_applied": 1.085
+    },
+    {
+      "month_number": 5,
+      "month_name": "May",
+      "season": "Shoulder",
+      "recommended_rate_eur": 54.0,
+      "rate_range_min_eur": 49,
+      "rate_range_max_eur": 59,
+      "current_rate_eur": 45,
+      "competitor_avg_rate_eur": 41,
+      "competitor_median_rate_eur": 40,
+      "expected_occupancy_pct": 37.7,
+      "expected_revenue_eur": 648.0,
+      "current_revenue_eur": 540,
+      "competitor_revenue_eur": 533,
+      "revenue_uplift_eur": 108.0,
+      "revenue_uplift_pct": 20.0,
+      "demand_index": 52,
+      "demand_adjustment": 1.15,
+      "rating_premium_applied": 1.085
+    },
+    {
+      "month_number": 6,
+      "month_name": "June",
+      "season": "Peak",
+      "recommended_rate_eur": 52.0,
+      "rate_range_min_eur": 47,
+      "rate_range_max_eur": 57,
+      "current_rate_eur": 45,
+      "competitor_avg_rate_eur": 48,
+      "competitor_median_rate_eur": 48,
+      "expected_occupancy_pct": 31.4,
+      "expected_revenue_eur": 468.0,
+      "current_revenue_eur": 360,
+      "competitor_revenue_eur": 720,
+      "revenue_uplift_eur": 108.0,
+      "revenue_uplift_pct": 30.0,
+      "demand_index": 38,
+      "demand_adjustment": 0.927,
+      "rating_premium_applied": 1.085
+    },
+    {
+      "month_number": 7,
+      "month_name": "July",
+      "season": "Peak",
+      "recommended_rate_eur": 44.0,
+      "rate_range_min_eur": 40,
+      "rate_range_max_eur": 48,
+      "current_rate_eur": 45,
+      "competitor_avg_rate_eur": 48,
+      "competitor_median_rate_eur": 48,
+      "expected_occupancy_pct": 31.3,
+      "expected_revenue_eur": 440.0,
+      "current_revenue_eur": 315,
+      "competitor_revenue_eur": 768,
+      "revenue_uplift_eur": 125.0,
+      "revenue_uplift_pct": 39.7,
+      "demand_index": 32,
+      "demand_adjustment": 0.85,
+      "rating_premium_applied": 1.085
+    },
+    {
+      "month_number": 8,
+      "month_name": "August",
+      "season": "Peak",
+      "recommended_rate_eur": 61.0,
+      "rate_range_min_eur": 55,
+      "rate_range_max_eur": 67,
+      "current_rate_eur": 45,
+      "competitor_avg_rate_eur": 48,
+      "competitor_median_rate_eur": 48,
+      "expected_occupancy_pct": 39.2,
+      "expected_revenue_eur": 732.0,
+      "current_revenue_eur": 585,
+      "competitor_revenue_eur": 768,
+      "revenue_uplift_eur": 147.0,
+      "revenue_uplift_pct": 25.1,
+      "demand_index": 60,
+      "demand_adjustment": 1.15,
+      "rating_premium_applied": 1.085
+    },
+    {
+      "month_number": 9,
+      "month_name": "September",
+      "season": "Peak",
+      "recommended_rate_eur": 59.0,
+      "rate_range_min_eur": 53,
+      "rate_range_max_eur": 65,
+      "current_rate_eur": 45,
+      "competitor_avg_rate_eur": 48,
+      "competitor_median_rate_eur": 48,
+      "expected_occupancy_pct": 38.7,
+      "expected_revenue_eur": 708.0,
+      "current_revenue_eur": 540,
+      "competitor_revenue_eur": 720,
+      "revenue_uplift_eur": 168.0,
+      "revenue_uplift_pct": 31.1,
+      "demand_index": 60,
+      "demand_adjustment": 1.15,
+      "rating_premium_applied": 1.085
+    },
+    {
+      "month_number": 10,
+      "month_name": "October",
+      "season": "Shoulder",
+      "recommended_rate_eur": 53.0,
+      "rate_range_min_eur": 48,
+      "rate_range_max_eur": 58,
+      "current_rate_eur": 45,
+      "competitor_avg_rate_eur": 41,
+      "competitor_median_rate_eur": 40,
+      "expected_occupancy_pct": 38.1,
+      "expected_revenue_eur": 636.0,
+      "current_revenue_eur": 540,
+      "competitor_revenue_eur": 533,
+      "revenue_uplift_eur": 96.0,
+      "revenue_uplift_pct": 17.8,
+      "demand_index": 53,
+      "demand_adjustment": 1.15,
+      "rating_premium_applied": 1.085
+    },
+    {
+      "month_number": 11,
+      "month_name": "November",
+      "season": "Shoulder",
+      "recommended_rate_eur": 53.0,
+      "rate_range_min_eur": 48,
+      "rate_range_max_eur": 58,
+      "current_rate_eur": 45,
+      "competitor_avg_rate_eur": 41,
+      "competitor_median_rate_eur": 40,
+      "expected_occupancy_pct": 58.9,
+      "expected_revenue_eur": 954.0,
+      "current_revenue_eur": 945,
+      "competitor_revenue_eur": 533,
+      "revenue_uplift_eur": 9.0,
+      "revenue_uplift_pct": 1.0,
+      "demand_index": 73,
+      "demand_adjustment": 1.15,
+      "rating_premium_applied": 1.085
+    },
+    {
+      "month_number": 12,
+      "month_name": "December",
+      "season": "Shoulder",
+      "recommended_rate_eur": 40.0,
+      "rate_range_min_eur": 36,
+      "rate_range_max_eur": 44,
+      "current_rate_eur": 45,
+      "competitor_avg_rate_eur": 41,
+      "competitor_median_rate_eur": 40,
+      "expected_occupancy_pct": 20.5,
+      "expected_revenue_eur": 240.0,
+      "current_revenue_eur": 135,
+      "competitor_revenue_eur": 533,
+      "revenue_uplift_eur": 105.0,
+      "revenue_uplift_pct": 77.8,
+      "demand_index": 13,
+      "demand_adjustment": 0.85,
+      "rating_premium_applied": 1.085
+    }
+  ],
+  "revenue_scenarios": {
+    "current": {
+      "label": "Current (flat EUR 45/night)",
+      "annual_revenue_eur": 5130,
+      "monthly_avg_eur": 427.5
+    },
+    "recommended": {
+      "label": "Recommended (dynamic seasonal pricing)",
+      "annual_revenue_eur": 6250.0,
+      "monthly_avg_eur": 520.83
+    },
+    "competitor_average": {
+      "label": "Competitor average pricing",
+      "annual_revenue_eur": 6909,
+      "monthly_avg_eur": 575.75
+    },
+    "uplift_vs_current": {
+      "annual_eur": 1120.0,
+      "annual_pct": 21.8
+    }
+  },
+  "summary": {
+    "avg_recommended_rate": 48.17,
+    "min_recommended_rate": 35.0,
+    "max_recommended_rate": 61.0,
+    "rate_spread": 26.0,
+    "current_flat_rate": 45,
+    "rating_premium_pct": 8.5,
+    "competitors_analyzed": 31,
+    "competitor_avg_price": 42.39,
+    "months_above_current": 7,
+    "months_below_current": 5,
+    "months_at_current": 0
+  },
+  "competitor_analysis": {
+    "count": 31,
+    "avg_price_eur": 42.39,
+    "median_price_eur": 44,
+    "p25_price_eur": 32.0,
+    "p75_price_eur": 49.5,
+    "your_position": {
+      "your_price_eur": 45,
+      "your_rating": 4.88,
+      "avg_competitor_price_eur": 42.39,
+      "median_competitor_price_eur": 44,
+      "price_vs_avg_pct": 6.2,
+      "price_percentile": 55,
+      "competitors_cheaper": 17,
+      "competitors_same_price": 1,
+      "competitors_more_expensive": 13,
+      "rating_rank": "5/32"
+    },
+    "rating_tiers": {
+      "premium": {
+        "label": "4.8+ rating",
+        "count": 8,
+        "avg_price_eur": 46,
+        "median_price_eur": 50.0,
+        "min_price_eur": 27,
+        "max_price_eur": 58
+      },
+      "good": {
+        "label": "4.5-4.79 rating",
+        "count": 16,
+        "avg_price_eur": 41.56,
+        "median_price_eur": 44.0,
+        "min_price_eur": 26,
+        "max_price_eur": 64
+      },
+      "average": {
+        "label": "4.0-4.49 rating",
+        "count": 6,
+        "avg_price_eur": 43,
+        "median_price_eur": 39.5,
+        "min_price_eur": 24,
+        "max_price_eur": 82
+      },
+      "below_avg": {
+        "label": "Below 4.0",
+        "count": 1,
+        "avg_price_eur": 23,
+        "median_price_eur": 23,
+        "min_price_eur": 23,
+        "max_price_eur": 23
+      }
+    },
+    "competitors": [
+      {
+        "name": "Studenti Studio Apartments",
+        "platform": "booking",
+        "price_eur": 23,
+        "rating": 7.7,
+        "max_guests": 2
+      },
+      {
+        "name": "Cozy Apartment Bllok Area",
+        "platform": "airbnb",
+        "price_eur": 24,
+        "rating": 4.2,
+        "max_guests": 2
+      },
+      {
+        "name": "Superb Studio Near City Center",
+        "platform": "airbnb",
+        "price_eur": 26,
+        "rating": 4.75,
+        "max_guests": 3
+      },
+      {
+        "name": "Rondine Studio Apartment",
+        "platform": "airbnb",
+        "price_eur": 27,
+        "rating": 4.94,
+        "max_guests": 2
+      },
+      {
+        "name": "Central Comfort Suites Red Room",
+        "platform": "airbnb",
+        "price_eur": 27,
+        "rating": 4.7,
+        "max_guests": 2
+      },
+      {
+        "name": "Central Comfort Suites Blue Room",
+        "platform": "airbnb",
+        "price_eur": 28,
+        "rating": 4.7,
+        "max_guests": 2
+      },
+      {
+        "name": "Andrea's small warm Apartment",
+        "platform": "airbnb",
+        "price_eur": 28,
+        "rating": 4.4,
+        "max_guests": 2
+      },
+      {
+        "name": "New Studio1 in Tirana Center",
+        "platform": "airbnb",
+        "price_eur": 31,
+        "rating": 4.55,
+        "max_guests": 2
+      },
+      {
+        "name": "Air Cosy Apt near City Center",
+        "platform": "airbnb",
+        "price_eur": 33,
+        "rating": 4.6,
+        "max_guests": 2
+      },
+      {
+        "name": "Kokobin Modern Apt",
+        "platform": "airbnb",
+        "price_eur": 35,
+        "rating": 4.8,
+        "max_guests": 3
+      },
+      {
+        "name": "Super cozy central apartment",
+        "platform": "airbnb",
+        "price_eur": 37,
+        "rating": 4.5,
+        "max_guests": 3
+      },
+      {
+        "name": "Venere Tirana Suite Deluxe",
+        "platform": "airbnb",
+        "price_eur": 39,
+        "rating": 4.8,
+        "max_guests": 3
+      },
+      {
+        "name": "Best apartment in center",
+        "platform": "airbnb",
+        "price_eur": 39,
+        "rating": 4.3,
+        "max_guests": 3
+      },
+      {
+        "name": "Absolute Blloku Apartment",
+        "platform": "airbnb",
+        "price_eur": 40,
+        "rating": 4.35,
+        "max_guests": 3
+      },
+      {
+        "name": "Piazza Downtown Cozy Studio",
+        "platform": "airbnb",
+        "price_eur": 41,
+        "rating": 4.73,
+        "max_guests": 2
+      },
+      {
+        "name": "Tirana Sweet Spot",
+        "platform": "airbnb",
+        "price_eur": 44,
+        "rating": 4.6,
+        "max_guests": 3
+      },
+      {
+        "name": "Brilant Apartament",
+        "platform": "booking",
+        "price_eur": 44,
+        "rating": 9.4,
+        "max_guests": 3
+      },
+      {
+        "name": "Duplex studio in heart of Tirana",
+        "platform": "airbnb",
+        "price_eur": 45,
+        "rating": 4.4,
+        "max_guests": 2
+      },
+      {
+        "name": "Next To Blloku Studio.2 by TAM",
+        "platform": "airbnb",
+        "price_eur": 46,
+        "rating": 4.63,
+        "max_guests": 2
+      },
+      {
+        "name": "Tempo Studios",
+        "platform": "booking",
+        "price_eur": 46,
+        "rating": 9.3,
+        "max_guests": 2
+      },
+      {
+        "name": "TIRANA CENTER APARTMENT",
+        "platform": "airbnb",
+        "price_eur": 48,
+        "rating": 4.9,
+        "max_guests": 2
+      },
+      {
+        "name": "Metro Suites 9A",
+        "platform": "airbnb",
+        "price_eur": 48,
+        "rating": 4.55,
+        "max_guests": 3
+      },
+      {
+        "name": "Studio Apartments 365",
+        "platform": "booking",
+        "price_eur": 48,
+        "rating": 9.2,
+        "max_guests": 2
+      },
+      {
+        "name": "LOFT w/Terrace Self Check-In",
+        "platform": "airbnb",
+        "price_eur": 51,
+        "rating": 4.55,
+        "max_guests": 3
+      },
+      {
+        "name": "Downtown Studio Apartments",
+        "platform": "booking",
+        "price_eur": 51,
+        "rating": 9.5,
+        "max_guests": 2
+      },
+      {
+        "name": "TAM Centre Luxury Serviced Apartments",
+        "platform": "both",
+        "price_eur": 52,
+        "rating": 9.7,
+        "max_guests": 2
+      },
+      {
+        "name": "Boutique 2 - Deluxe Studio Apart",
+        "platform": "airbnb",
+        "price_eur": 53,
+        "rating": 4.95,
+        "max_guests": 1
+      },
+      {
+        "name": "Studio in Tirana (Blloku)",
+        "platform": "airbnb",
+        "price_eur": 56,
+        "rating": 4.99,
+        "max_guests": 2
+      },
+      {
+        "name": "Downtown Boutique Studios",
+        "platform": "booking",
+        "price_eur": 58,
+        "rating": 9.7,
+        "max_guests": 3
+      },
+      {
+        "name": "Ani's Apartment",
+        "platform": "airbnb",
+        "price_eur": 64,
+        "rating": 4.55,
+        "max_guests": 3
+      },
+      {
+        "name": "Skanderbeg Square Center Apartment",
+        "platform": "airbnb",
+        "price_eur": 82,
+        "rating": 4.45,
+        "max_guests": 3
+      }
+    ]
+  },
+  "demand_patterns": {
+    "1": {
+      "month_number": 1,
+      "month_name": "January",
+      "data_points": 3,
+      "avg_occupancy_pct": 5.4,
+      "avg_adr": 44.32,
+      "avg_bookings": 1.7,
+      "avg_room_nights": 1.7,
+      "avg_revenue": 73.34,
+      "avg_length_of_stay": 1.0,
+      "demand_index": 9,
+      "years_seen": [
+        2024,
+        2025,
+        2026
+      ]
+    },
+    "2": {
+      "month_number": 2,
+      "month_name": "February",
+      "data_points": 3,
+      "avg_occupancy_pct": 14.0,
+      "avg_adr": 43.02,
+      "avg_bookings": 3.0,
+      "avg_room_nights": 4.0,
+      "avg_revenue": 161.91,
+      "avg_length_of_stay": 1.3,
+      "demand_index": 21,
+      "years_seen": [
+        2024,
+        2025,
+        2026
+      ]
+    },
+    "3": {
+      "month_number": 3,
+      "month_name": "March",
+      "data_points": 2,
+      "avg_occupancy_pct": 24.2,
+      "avg_adr": 42.44,
+      "avg_bookings": 4.0,
+      "avg_room_nights": 7.5,
+      "avg_revenue": 308.56,
+      "avg_length_of_stay": 1.9,
+      "demand_index": 33,
+      "years_seen": [
+        2024,
+        2025
+      ]
+    },
+    "4": {
+      "month_number": 4,
+      "month_name": "April",
+      "data_points": 2,
+      "avg_occupancy_pct": 40.0,
+      "avg_adr": 45.81,
+      "avg_bookings": 5.0,
+      "avg_room_nights": 12.0,
+      "avg_revenue": 539.36,
+      "avg_length_of_stay": 2.4,
+      "demand_index": 50,
+      "years_seen": [
+        2024,
+        2025
+      ]
+    },
+    "5": {
+      "month_number": 5,
+      "month_name": "May",
+      "data_points": 2,
+      "avg_occupancy_pct": 40.3,
+      "avg_adr": 48.61,
+      "avg_bookings": 5.5,
+      "avg_room_nights": 12.5,
+      "avg_revenue": 609.11,
+      "avg_length_of_stay": 2.3,
+      "demand_index": 52,
+      "years_seen": [
+        2024,
+        2025
+      ]
+    },
+    "6": {
+      "month_number": 6,
+      "month_name": "June",
+      "data_points": 2,
+      "avg_occupancy_pct": 26.6,
+      "avg_adr": 56.52,
+      "avg_bookings": 5.0,
+      "avg_room_nights": 8.0,
+      "avg_revenue": 432.4,
+      "avg_length_of_stay": 1.6,
+      "demand_index": 38,
+      "years_seen": [
+        2024,
+        2025
+      ]
+    },
+    "7": {
+      "month_number": 7,
+      "month_name": "July",
+      "data_points": 2,
+      "avg_occupancy_pct": 22.6,
+      "avg_adr": 48.59,
+      "avg_bookings": 4.0,
+      "avg_room_nights": 7.0,
+      "avg_revenue": 348.3,
+      "avg_length_of_stay": 1.8,
+      "demand_index": 32,
+      "years_seen": [
+        2024,
+        2025
+      ]
+    },
+    "8": {
+      "month_number": 8,
+      "month_name": "August",
+      "data_points": 2,
+      "avg_occupancy_pct": 43.5,
+      "avg_adr": 49.42,
+      "avg_bookings": 7.5,
+      "avg_room_nights": 13.5,
+      "avg_revenue": 665.25,
+      "avg_length_of_stay": 1.8,
+      "demand_index": 60,
+      "years_seen": [
+        2024,
+        2025
+      ]
+    },
+    "9": {
+      "month_number": 9,
+      "month_name": "September",
+      "data_points": 2,
+      "avg_occupancy_pct": 41.6,
+      "avg_adr": 46.59,
+      "avg_bookings": 8.0,
+      "avg_room_nights": 12.5,
+      "avg_revenue": 580.22,
+      "avg_length_of_stay": 1.6,
+      "demand_index": 60,
+      "years_seen": [
+        2024,
+        2025
+      ]
+    },
+    "10": {
+      "month_number": 10,
+      "month_name": "October",
+      "data_points": 2,
+      "avg_occupancy_pct": 40.3,
+      "avg_adr": 46.22,
+      "avg_bookings": 6.0,
+      "avg_room_nights": 12.5,
+      "avg_revenue": 576.12,
+      "avg_length_of_stay": 2.1,
+      "demand_index": 53,
+      "years_seen": [
+        2024,
+        2025
+      ]
+    },
+    "11": {
+      "month_number": 11,
+      "month_name": "November",
+      "data_points": 2,
+      "avg_occupancy_pct": 70.0,
+      "avg_adr": 46.52,
+      "avg_bookings": 3.5,
+      "avg_room_nights": 21.0,
+      "avg_revenue": 971.88,
+      "avg_length_of_stay": 6.0,
+      "demand_index": 73,
+      "years_seen": [
+        2024,
+        2025
+      ]
+    },
+    "12": {
+      "month_number": 12,
+      "month_name": "December",
+      "data_points": 2,
+      "avg_occupancy_pct": 8.1,
+      "avg_adr": 49.02,
+      "avg_bookings": 2.0,
+      "avg_room_nights": 2.5,
+      "avg_revenue": 123.62,
+      "avg_length_of_stay": 1.2,
+      "demand_index": 13,
+      "years_seen": [
+        2024,
+        2025
+      ]
+    }
+  },
+  "demand_overall": {
+    "avg_occupancy_pct": 31.4,
+    "avg_adr": 47.26,
+    "avg_demand_index": 41,
+    "months_with_data": 12,
+    "total_data_points": 26
+  },
+  "market_benchmarks": {
+    "1": {
+      "month_number": 1,
+      "month_name": "January",
+      "season": "low_season",
+      "season_label": "Off Season",
+      "market_rate_low_eur": 21,
+      "market_rate_high_eur": 51,
+      "market_avg_rate_eur": 35,
+      "market_median_rate_eur": 35,
+      "market_occupancy_pct": 35,
+      "rating_premium_multiplier": 1.085,
+      "data_source": "competitor_filtered"
+    },
+    "2": {
+      "month_number": 2,
+      "month_name": "February",
+      "season": "low_season",
+      "season_label": "Off Season",
+      "market_rate_low_eur": 21,
+      "market_rate_high_eur": 51,
+      "market_avg_rate_eur": 35,
+      "market_median_rate_eur": 35,
+      "market_occupancy_pct": 35,
+      "rating_premium_multiplier": 1.085,
+      "data_source": "competitor_filtered"
+    },
+    "3": {
+      "month_number": 3,
+      "month_name": "March",
+      "season": "shoulder_season",
+      "season_label": "Shoulder",
+      "market_rate_low_eur": 25,
+      "market_rate_high_eur": 60,
+      "market_avg_rate_eur": 41,
+      "market_median_rate_eur": 40,
+      "market_occupancy_pct": 42,
+      "rating_premium_multiplier": 1.085,
+      "data_source": "competitor_filtered"
+    },
+    "4": {
+      "month_number": 4,
+      "month_name": "April",
+      "season": "shoulder_season",
+      "season_label": "Shoulder",
+      "market_rate_low_eur": 25,
+      "market_rate_high_eur": 60,
+      "market_avg_rate_eur": 41,
+      "market_median_rate_eur": 40,
+      "market_occupancy_pct": 42,
+      "rating_premium_multiplier": 1.085,
+      "data_source": "competitor_filtered"
+    },
+    "5": {
+      "month_number": 5,
+      "month_name": "May",
+      "season": "shoulder_season",
+      "season_label": "Shoulder",
+      "market_rate_low_eur": 25,
+      "market_rate_high_eur": 60,
+      "market_avg_rate_eur": 41,
+      "market_median_rate_eur": 40,
+      "market_occupancy_pct": 42,
+      "rating_premium_multiplier": 1.085,
+      "data_source": "competitor_filtered"
+    },
+    "6": {
+      "month_number": 6,
+      "month_name": "June",
+      "season": "peak_season",
+      "season_label": "Peak",
+      "market_rate_low_eur": 30,
+      "market_rate_high_eur": 70,
+      "market_avg_rate_eur": 48,
+      "market_median_rate_eur": 48,
+      "market_occupancy_pct": 50,
+      "rating_premium_multiplier": 1.085,
+      "data_source": "competitor_filtered"
+    },
+    "7": {
+      "month_number": 7,
+      "month_name": "July",
+      "season": "peak_season",
+      "season_label": "Peak",
+      "market_rate_low_eur": 30,
+      "market_rate_high_eur": 70,
+      "market_avg_rate_eur": 48,
+      "market_median_rate_eur": 48,
+      "market_occupancy_pct": 50,
+      "rating_premium_multiplier": 1.085,
+      "data_source": "competitor_filtered"
+    },
+    "8": {
+      "month_number": 8,
+      "month_name": "August",
+      "season": "peak_season",
+      "season_label": "Peak",
+      "market_rate_low_eur": 30,
+      "market_rate_high_eur": 70,
+      "market_avg_rate_eur": 48,
+      "market_median_rate_eur": 48,
+      "market_occupancy_pct": 50,
+      "rating_premium_multiplier": 1.085,
+      "data_source": "competitor_filtered"
+    },
+    "9": {
+      "month_number": 9,
+      "month_name": "September",
+      "season": "peak_season",
+      "season_label": "Peak",
+      "market_rate_low_eur": 30,
+      "market_rate_high_eur": 70,
+      "market_avg_rate_eur": 48,
+      "market_median_rate_eur": 48,
+      "market_occupancy_pct": 50,
+      "rating_premium_multiplier": 1.085,
+      "data_source": "competitor_filtered"
+    },
+    "10": {
+      "month_number": 10,
+      "month_name": "October",
+      "season": "shoulder_season",
+      "season_label": "Shoulder",
+      "market_rate_low_eur": 25,
+      "market_rate_high_eur": 60,
+      "market_avg_rate_eur": 41,
+      "market_median_rate_eur": 40,
+      "market_occupancy_pct": 42,
+      "rating_premium_multiplier": 1.085,
+      "data_source": "competitor_filtered"
+    },
+    "11": {
+      "month_number": 11,
+      "month_name": "November",
+      "season": "shoulder_season",
+      "season_label": "Shoulder",
+      "market_rate_low_eur": 25,
+      "market_rate_high_eur": 60,
+      "market_avg_rate_eur": 41,
+      "market_median_rate_eur": 40,
+      "market_occupancy_pct": 42,
+      "rating_premium_multiplier": 1.085,
+      "data_source": "competitor_filtered"
+    },
+    "12": {
+      "month_number": 12,
+      "month_name": "December",
+      "season": "shoulder_season",
+      "season_label": "Shoulder",
+      "market_rate_low_eur": 25,
+      "market_rate_high_eur": 60,
+      "market_avg_rate_eur": 41,
+      "market_median_rate_eur": 40,
+      "market_occupancy_pct": 42,
+      "rating_premium_multiplier": 1.085,
+      "data_source": "competitor_filtered"
+    }
+  },
+  "rating_premium": {
+    "airbnb_rating": 4.88,
+    "booking_rating": 10.0,
+    "percentile": "top 5% by rating",
+    "premium_range_pct": "15-25",
+    "applied_premium_pct": 8.5,
+    "multiplier": 1.085,
+    "data_source": "competitor_analysis",
+    "premium_tier_avg_eur": 46,
+    "overall_avg_eur": 42.39,
+    "justification": "With 4.88/5 Airbnb + 10.0/10 Booking.com ratings (top 5% by rating), a 8.5% premium over competitor average is justified. Premium-rated competitors (4.8+) charge EUR 46 avg vs EUR 42.39 overall avg among 31 nearby properties (max 3 guests)."
+  },
+  "market_context": {
+    "competitors_analyzed": 31,
+    "competitor_avg_price_eur": 42.39,
+    "competitor_median_price_eur": 44,
+    "competitor_p25_price_eur": 32.0,
+    "competitor_p75_price_eur": 49.5,
+    "your_price_percentile": 55,
+    "your_price_vs_avg_pct": 6.2,
+    "your_rating_rank": "5/32",
+    "filter": "central Tirana, max 3 guests"
+  },
+  "issues": [
+    {
+      "severity": "MEDIUM",
+      "message": "Demand cliff: November (index 73) -> December (index 13)"
+    },
+    {
+      "severity": "LOW",
+      "message": "Competitor data last updated: 2026-02-21"
+    }
+  ]
+}

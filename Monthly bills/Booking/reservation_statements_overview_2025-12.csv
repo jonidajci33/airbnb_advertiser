@@ -1,0 +1,3 @@
+"Reservation number","Invoice number","Booked on","Arrival","Departure","Booker name","Guest name","Rooms","Persons","Room nights","Commission %","Original amount","Final amount","Commission amount","Status","Guest request","Currency","Hotel id","Property name","City","Country"
+"6502112961","1645408993","2025-11-21T15:04:21","2025-11-23","2025-12-06","TIMEA TOTH","TIMEA TOTH","1","3","13","12.00","646.830","646.8300","77.6200","OK","","EUR","11461777","Lulebore Apartament 1","Tirana","Albania"
+"6633005758","1645408993","2025-11-16T20:30:34","2025-12-06","2025-12-08","Jims Antonella Agyemang","Jims Antonella Agyemang","1","2","2","12.00","105.370","105.3700","12.6400","OK","","EUR","11461777","Lulebore Apartament 1","Tirana","Albania"

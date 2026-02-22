@@ -1,0 +1,4 @@
+"Reservation number","Invoice number","Booked on","Arrival","Departure","Booker name","Guest name","Rooms","Persons","Room nights","Commission %","Original amount","Final amount","Commission amount","Status","Guest request","Currency","Hotel id","Property name","City","Country"
+"4725034231","1617283675","2024-08-29T22:24:17","2024-08-31","2024-09-01","Gledis Basha","Gledis Basha","1","2","1","12.00","48.293","48.2927","5.7951","OK","","EUR","11461777","Lulebore Apartament 1","Tirana","Albania"
+"4571350483","1617283675","2024-09-09T13:13:23","2024-09-15","2024-09-16","Gjonce Fotjona","Gjonce Fotjona","1","2","1","12.00","48.293","48.2927","5.7951","OK","","EUR","11461777","Lulebore Apartament 1","Tirana","Albania"
+"4580681177","1617283675","2024-09-21T17:21:48","2024-09-28","2024-09-29","Herlej Jaçe","Herlej Jaçe","1","2","1","12.00","48.293","48.2927","5.7951","OK","","EUR","11461777","Lulebore Apartament 1","Tirana","Albania"

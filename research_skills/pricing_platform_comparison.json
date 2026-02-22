@@ -1,0 +1,317 @@
+{
+  "research_date": "2026-02-22",
+  "topic": "Airbnb vs Booking.com Pricing Strategy for Dual-Platform Hosts",
+
+  "1_commission_structure_comparison": {
+    "airbnb": {
+      "current_model": "Host-Only Fee (since October 27, 2025)",
+      "host_only_fee_percent": 15.5,
+      "host_only_fee_brazil": 16.0,
+      "previous_split_fee_host_percent": 3.0,
+      "previous_split_fee_guest_percent": "14.0-16.0",
+      "split_fee_still_available": "No - all hosts transitioned by December 1, 2025",
+      "transition_timeline": {
+        "PMS_connected_hosts": "October 27, 2025",
+        "independent_hosts": "December 1, 2025"
+      },
+      "what_fee_applies_to": "Booking subtotal (nightly rate x nights + cleaning fee + pet fee + extra guest fees - discounts)",
+      "guest_sees": "Exact listed price, no separate service fee",
+      "eur_45_example": {
+        "listed_price_eur": 45.00,
+        "airbnb_fee_15_5_pct": 6.98,
+        "host_receives_eur": 38.03,
+        "guest_pays_eur": 45.00,
+        "effective_host_take_rate_pct": 84.5
+      }
+    },
+    "booking_com": {
+      "model": "Host-Only Commission (always been this way)",
+      "commission_range_percent": "10-25",
+      "average_commission_percent": 15,
+      "typical_vacation_rental_percent": 15,
+      "payments_by_booking_additional_fee_percent": "1.1-3.1",
+      "what_commission_applies_to": "Total reservation amount confirmed by guest, including extra costs (cleaning fee, surcharges), excluding tourist taxes (since Dec 2023)",
+      "preferred_partner_extra_commission_percent": "3-5",
+      "preferred_partner_total_commission_percent": "~18",
+      "preferred_plus_total_commission_percent": "~23",
+      "guest_sees": "Listed price only (no separate fees)",
+      "eur_45_example_at_15_pct": {
+        "listed_price_eur": 45.00,
+        "commission_15_pct": 6.75,
+        "host_receives_eur": 38.25,
+        "payments_by_booking_fee_est_2_pct": 0.90,
+        "host_receives_after_payment_fee_eur": 37.35,
+        "guest_pays_eur": 45.00,
+        "effective_host_take_rate_pct_before_payment_fee": 85.0,
+        "effective_host_take_rate_pct_after_payment_fee": 83.0
+      }
+    },
+    "net_revenue_comparison_eur_45": {
+      "note": "If you list at EUR 45 on both platforms",
+      "airbnb_host_receives": 38.03,
+      "booking_com_host_receives_before_payment_fee": 38.25,
+      "booking_com_host_receives_after_payment_fee": 37.35,
+      "difference_booking_vs_airbnb_before_payment_fee": "+EUR 0.22 for Booking.com",
+      "difference_booking_vs_airbnb_after_payment_fee": "-EUR 0.68 for Booking.com",
+      "conclusion": "At standard 15% commission, the net revenue is nearly identical. With Payments by Booking.com fee, Airbnb slightly edges out Booking.com by ~EUR 0.68/night"
+    }
+  },
+
+  "2_pricing_strategy_dual_platform": {
+    "should_prices_be_same_or_different": {
+      "industry_consensus": "Now that both platforms have converged to ~15-15.5% host-only fees, keeping the same base price is the simplest approach. However, many successful hosts still adjust prices per platform to account for Booking.com's additional programs (Genius, Preferred Partner) that erode margins.",
+      "recommended_approaches": [
+        {
+          "approach": "Same base price on both",
+          "when_to_use": "If you are NOT in Booking.com Genius program and NOT a Preferred Partner",
+          "rationale": "Commission rates are nearly identical (15% vs 15.5%). Net revenue difference is negligible at EUR 0.22/night."
+        },
+        {
+          "approach": "Price 5-10% higher on Booking.com",
+          "when_to_use": "If you ARE in Genius program (to offset the 10-20% Genius discount that comes from YOUR pocket)",
+          "rationale": "Genius Level 1 takes 10% off your price. If you list at EUR 45, Genius guests pay EUR 40.50, and you receive EUR 40.50 minus 15% commission = EUR 34.43. Compare to Airbnb: EUR 45 minus 15.5% = EUR 38.03. That is a EUR 3.60/night loss."
+        },
+        {
+          "approach": "Use Booking.com rate plans strategically",
+          "when_to_use": "Always - use non-refundable as the discounted rate, flexible as your standard rate",
+          "rationale": "Your 'standard' flexible rate on Booking.com can be higher, with non-refundable offering a 10% discount that brings it close to your Airbnb price."
+        }
+      ]
+    },
+    "rate_parity_clause": {
+      "current_status_EU": "REMOVED as of July 1, 2024 due to EU Digital Markets Act (DMA)",
+      "what_this_means": "In the EEA (which includes Albania as a candidate country that aligns with EU regulations), Booking.com can NO longer require you to offer the same or better price on their platform vs your own website or other channels.",
+      "different_parity_regimes_by_region": {
+        "no_parity": "No obligation to match rates - you can price differently on any channel",
+        "narrow_parity": "Must offer same or better rate on Booking.com vs YOUR OWN website only (not vs other OTAs)",
+        "wide_parity": "Must offer same rate across ALL channels (only in some non-EU regions)"
+      },
+      "practical_impact": "For Albania/European hosts, you are largely free to price differently across platforms. Booking.com cannot penalize you for having a lower price on Airbnb or your own website."
+    },
+    "genius_program_impact_on_pricing": {
+      "who_pays_genius_discount": "THE HOST pays. Booking.com does NOT subsidize it.",
+      "discount_levels": {
+        "level_1": "10% discount (all Genius members - anyone who creates an account)",
+        "level_2": "15% discount (5+ stays in 2 years)",
+        "level_3": "20% discount (15+ stays in 2 years)"
+      },
+      "revenue_impact_example_eur_45": {
+        "without_genius": {
+          "listed_price": 45.00,
+          "commission_15_pct": 6.75,
+          "host_receives": 38.25
+        },
+        "genius_level_1_10pct_discount": {
+          "guest_pays": 40.50,
+          "commission_15_pct": 6.08,
+          "host_receives": 34.43,
+          "revenue_loss_vs_no_genius": 3.82,
+          "revenue_loss_vs_airbnb_at_45": 3.60
+        },
+        "genius_level_2_15pct_discount": {
+          "guest_pays": 38.25,
+          "commission_15_pct": 5.74,
+          "host_receives": 32.51,
+          "revenue_loss_vs_no_genius": 5.74,
+          "revenue_loss_vs_airbnb_at_45": 5.52
+        },
+        "genius_level_3_20pct_discount": {
+          "guest_pays": 36.00,
+          "commission_15_pct": 5.40,
+          "host_receives": 30.60,
+          "revenue_loss_vs_no_genius": 7.65,
+          "revenue_loss_vs_airbnb_at_45": 7.43
+        }
+      },
+      "claimed_benefits": {
+        "search_views_increase": "70%",
+        "bookings_increase": "45%",
+        "revenue_increase_net_of_discount": "40%"
+      },
+      "host_can_block_genius": "Yes, up to 30 non-consecutive days per year"
+    }
+  },
+
+  "3_booking_com_pricing_features": {
+    "rate_plans": {
+      "non_refundable": {
+        "discount_range": "0-99% (host sets it)",
+        "recommended_discount": "10-20% off flexible rate",
+        "minimum_effective_discount": "10% to attract bookings",
+        "benefit": "Guaranteed revenue, no cancellation risk. Cancellation rates on flexible bookings exceed 20%.",
+        "revenue_impact": "Lower per-booking revenue but higher certainty. Trade 10% revenue for 0% cancellation risk."
+      },
+      "early_booker": {
+        "minimum_advance_days": 15,
+        "recommended_advance_days": 30,
+        "booking_window": "15-360 days before check-in",
+        "discount": "Host sets the percentage",
+        "benefit": "Secures revenue early, reduces need for last-minute discounts"
+      },
+      "last_minute": {
+        "description": "Discounted rate for bookings made close to check-in",
+        "benefit": "Fills unsold dates"
+      }
+    },
+    "genius_discounts": {
+      "level_1_discount": "10%",
+      "level_2_discount": "15%",
+      "level_3_discount": "20%",
+      "paid_by": "Host (NOT Booking.com)",
+      "applies_to": "Cheapest or most popular room/rate only",
+      "non_genius_bookings_at_genius_properties": "30% of bookings are for non-Genius room types (still benefit from visibility boost)",
+      "genius_dynamic_pricing": "Booking.com can automatically adjust discount based on demand"
+    },
+    "mobile_only_rates": {
+      "minimum_discount": "10%",
+      "recommended_discount": "15%",
+      "visibility": "Only shown to users on Booking.com mobile app or mobile browser",
+      "claimed_booking_increase": "Up to 30% more mobile bookings",
+      "stacking": "Does NOT stack with Country Rates or Limited-time Deals"
+    },
+    "country_specific_rates": {
+      "minimum_discount": "5%",
+      "recommended_discount": "10%",
+      "description": "Target guests from specific countries with special rates",
+      "stacking": "Stacks with Genius and other promotions, but NOT with Mobile Rates",
+      "use_case": "Attract guests from high-value source markets (e.g., offer Germans or Italians a discount to attract medical tourism patients)"
+    },
+    "cumulative_revenue_erosion_worst_case": {
+      "scenario": "EUR 45 listing with Genius L3 + Preferred Partner + Payments fee",
+      "base_price": 45.00,
+      "genius_level_3_discount_20pct": -9.00,
+      "price_after_genius": 36.00,
+      "preferred_partner_commission_18pct": -6.48,
+      "payments_by_booking_fee_2pct": -0.72,
+      "host_receives": 28.80,
+      "total_effective_take_rate": "36%",
+      "host_effective_rate": "64%",
+      "note": "This is the WORST case. In practice, not all bookings will be Genius L3."
+    }
+  },
+
+  "4_guest_behavior_differences": {
+    "airbnb_guests": {
+      "demographics": "Younger, Millennials and Gen Z, experience-driven",
+      "travel_style": "Solo travelers, friends, couples seeking unique/local stays",
+      "booking_pattern": "Early planners, book weeks in advance especially around holidays",
+      "average_length_of_stay": "3+ nights, often longer stays",
+      "expectations": "Understand they are in someone's home, do not expect hotel-level service",
+      "cancellation_behavior": "Lower cancellation rates",
+      "price_sensitivity": "More price-conscious, compare listings carefully",
+      "communication": "Expect host communication via platform messaging"
+    },
+    "booking_com_guests": {
+      "demographics": "Broader age range, includes business travelers, families, older travelers",
+      "travel_style": "Convenience-focused, last-minute planners, location-specific",
+      "booking_pattern": "Last-minute reservations, often booking within a few days of check-in",
+      "average_length_of_stay": "Shorter stays, often 1-2 nights (especially urban/business)",
+      "expectations": "Used to hotel standards: 24-hour check-in, towels, toiletries, instant responsiveness",
+      "cancellation_behavior": "Higher cancellation rates (flexible bookings often exceed 20% cancellation)",
+      "price_sensitivity": "Less price-sensitive if booking last-minute or for business",
+      "communication": "Expect hotel-like responsiveness"
+    },
+    "dual_platform_booking_data": {
+      "hosts_on_both_platforms_avg_booked_nights": "17/month",
+      "airbnb_only_avg_booked_nights": "16.5/month",
+      "booking_only_avg_booked_nights": "12/month",
+      "conclusion": "Being on both platforms adds approximately 0.5-5 extra booked nights vs single platform"
+    }
+  },
+
+  "5_tirana_albania_market_data": {
+    "market_size": {
+      "total_listings_sep_2023": 24902,
+      "airbnb_listings_sep_2023": 15512,
+      "booking_com_listings_estimated": 9390,
+      "airbnb_active_listings_tirana_oct_2025": 3488,
+      "year_over_year_growth": "25% increase (Sep 2022 to Sep 2023)"
+    },
+    "airbnb_pricing_tirana": {
+      "average_daily_rate_usd": 49,
+      "average_daily_rate_dec_2025_usd": 56,
+      "median_nightly_rate_usd": 44,
+      "top_25_pct_rate_usd": 58,
+      "top_10_pct_rate_usd": 81,
+      "bottom_25_pct_rate_usd": 35,
+      "peak_month": "August",
+      "peak_adr_usd": 62,
+      "occupancy_rate_annual_avg": "62%",
+      "avg_booked_nights_per_year": 226
+    },
+    "platform_dominance": {
+      "airbnb_share_of_listings": "62% (15,512 out of 24,902 in Albania)",
+      "booking_com_share_of_listings": "38% (estimated 9,390 in Albania)",
+      "note": "Airbnb has MORE listings in Albania, but Booking.com is extremely popular in Southeast Europe for hotel-style bookings. For vacation rentals specifically, Airbnb leads.",
+      "tourism_growth": "Albania expecting up to 10 million tourists, budget-friendly destination",
+      "short_term_rental_revenue_albania_2023": "EUR 45.5 million in first 9 months of 2023"
+    },
+    "pricing_comparison_tirana": {
+      "observation": "No definitive data showing one platform systematically charges more or less than the other in Tirana. Prices tend to be comparable. However, Booking.com listings may appear cheaper to guests when hosts don't account for Genius discounts, effectively giving a 10% lower visible price to Genius members.",
+      "recommendation_for_tirana": "Given that commission rates are similar and rate parity is relaxed in Europe, price the same on both platforms OR 5-10% higher on Booking.com if participating in Genius to protect your net revenue."
+    }
+  },
+
+  "6_strategic_recommendations": {
+    "for_eur_45_base_price": [
+      {
+        "strategy": "List at EUR 45 on Airbnb, EUR 50 on Booking.com (flexible rate)",
+        "rationale": "EUR 50 on Booking.com with 10% Genius discount = EUR 45 guest price for Genius members. After 15% commission on EUR 45 = EUR 38.25 host receives. On Airbnb: EUR 45 minus 15.5% = EUR 38.03. Nearly identical net revenue.",
+        "non_genius_booking_com_guests": "Pay EUR 50, you receive EUR 42.50 - a premium over Airbnb"
+      },
+      {
+        "strategy": "Offer non-refundable rate on Booking.com at EUR 45 (10% off EUR 50 flexible)",
+        "rationale": "Gives Booking.com price-sensitive guests the same EUR 45 as Airbnb, but with guaranteed no-cancellation revenue for you"
+      },
+      {
+        "strategy": "Use Airbnb as your anchor price, adjust Booking.com around it",
+        "rationale": "Since Airbnb has more listings in Tirana and likely more price-transparent guests, set your competitive price there first"
+      }
+    ],
+    "programs_to_consider": {
+      "genius_program": {
+        "recommendation": "JOIN but offset with higher base price",
+        "rationale": "70% more views, 45% more bookings claimed. Even with 10% discount, the volume increase should outweigh the margin loss - IF you raise your Booking.com base price to compensate."
+      },
+      "preferred_partner": {
+        "recommendation": "SKIP for now",
+        "rationale": "Extra 3-5% commission for 20% more bookings. At your price point (EUR 45), the extra EUR 1.35-2.25/night loss is significant. Only worth it if you are struggling with occupancy."
+      },
+      "mobile_rates": {
+        "recommendation": "Consider carefully",
+        "rationale": "10% discount for 30% more mobile bookings. Good for filling low-season gaps. Turn on/off seasonally."
+      },
+      "country_specific_rates": {
+        "recommendation": "USE strategically for medical tourism",
+        "rationale": "Offer 5-10% discount to guests from Italy, UK, Germany - your target medical tourism markets"
+      }
+    }
+  },
+
+  "sources": [
+    "https://www.hostaway.com/blog/airbnb-vs-booking-com-or-the-key-hosting-differences/",
+    "https://www.hostaway.com/blog/airbnb-host-only-fee-what-to-know-about-the-15-percent-host-fee/",
+    "https://your.rentals/blog/booking-com-fees-how-are-they-calculated/",
+    "https://www.lodgify.com/guides/booking/fees/",
+    "https://partner.booking.com/en-us/help/commission-invoices-tax/commission/understanding-our-commission",
+    "https://www.igms.com/booking-com-vs-airbnb/",
+    "https://www.airdna.co/blog/bookingcom-vs-airbnb",
+    "https://partner.booking.com/en-us/help/rates-availability/rates-special-offers/setting-non-refundable-rate",
+    "https://partner.booking.com/en-us/help/rates-availability/rates-special-offers/setting-country-rates",
+    "https://partner.booking.com/en-us/help/rates-availability/rates-special-offers/setting-mobile-rates",
+    "https://partner.booking.com/en-us/help/rates-availability/rates-special-offers/setting-early-booker-rate-plan",
+    "https://partner.booking.com/en-us/solutions/genius-0",
+    "https://www.houst.com/blog/booking-com-genius-program",
+    "https://www.rentalscaleup.com/airbnb-and-booking-com-strategy-comparison/",
+    "https://hello.pricelabs.co/airbnb-host-fee-update/",
+    "https://www.beyondpricing.com/blog/airbnb-service-fee-changes-2025",
+    "https://www.revolvio.com/post/airbnb-commission-change-2025",
+    "https://partner.booking.com/en-us/help/legal-security/terms-local-laws/how-does-parity-work",
+    "https://stayfi.com/vrm-insider/2025/11/04/ota-fees/",
+    "https://hellohosty.com/news-insights/booking-platform-commissions-what-hosts-really-pay/",
+    "https://centrarium.com/en/blog/bum-kratkosrochnoj-arendy-v-albanii-112.html",
+    "https://airbtics.com/annual-airbnb-revenue-in-tirana-albania/",
+    "https://www.airdna.co/vacation-rental-data/app/al/default/tirana/overview",
+    "https://homevy.com/blog/airbnb-vs-booking-com"
+  ]
+}

@@ -1,0 +1,1170 @@
+{
+  "generated": "2026-02-21T15:22:37.785982",
+  "skills_results": {
+    "data_loader": {
+      "skill": "data_loader",
+      "status": "success",
+      "data_sources": {
+        "leads_xlsx": "loaded",
+        "email_log": "loaded",
+        "property_profile": "loaded",
+        "airbnb_info": "loaded"
+      },
+      "summary": {
+        "total_leads": 608,
+        "leads_with_phone": 466,
+        "leads_with_email": 166,
+        "leads_emailed": 163,
+        "leads_messaged": 0,
+        "categories": {
+          "DENTAL": 537,
+          "HAIR_TRANSPLANT": 71
+        },
+        "email_log_entries": 348,
+        "email_successes": 164,
+        "email_failures": 0
+      }
+    },
+    "outreach_analyzer": {
+      "skill": "outreach_analyzer",
+      "status": "success",
+      "email_outreach": {
+        "total_leads": 608,
+        "leads_with_email": 166,
+        "leads_emailed": 163,
+        "leads_pending_email": 3,
+        "email_coverage_pct": 98.2,
+        "total_coverage_pct": 26.8,
+        "emailed_by_category": {
+          "DENTAL": 152,
+          "HAIR_TRANSPLANT": 11
+        },
+        "pending_by_category": {
+          "DENTAL": 3
+        },
+        "send_sessions": [
+          {
+            "date": "2026-02-20",
+            "start_time": "10:08",
+            "count": 7,
+            "duration_min": 1.1
+          },
+          {
+            "date": "2026-02-20",
+            "start_time": "11:29",
+            "count": 157,
+            "duration_min": 27.6
+          }
+        ],
+        "total_successful_sends": 164
+      },
+      "whatsapp_outreach": {
+        "total_leads": 608,
+        "leads_with_phone": 466,
+        "leads_messaged": 0,
+        "leads_pending_whatsapp": 466,
+        "whatsapp_coverage_pct": 0.0,
+        "messaged_by_category": {},
+        "pending_by_category": {
+          "DENTAL": 457,
+          "HAIR_TRANSPLANT": 9
+        }
+      },
+      "issues": [
+        {
+          "severity": "HIGH",
+          "area": "Email Data Gap",
+          "finding": "Only 26.8% of all leads have been emailed (many leads lack email addresses)",
+          "recommendation": "Run email_scraper.py to extract more email addresses from clinic websites.",
+          "source_skill": "outreach_analyzer"
+        },
+        {
+          "severity": "HIGH",
+          "area": "WhatsApp Underutilized",
+          "finding": "Only 0.0% of leads with phone have been messaged via WhatsApp",
+          "recommendation": "WhatsApp is more personal and gets higher response rates. 466 leads are waiting. Run whatsapp_sender.py.",
+          "source_skill": "outreach_analyzer"
+        },
+        {
+          "severity": "MEDIUM",
+          "area": "No Follow-Up System",
+          "finding": "There is no mechanism to track responses or send follow-up emails",
+          "recommendation": "Add a 'Responded' column to track which clinics replied. Create a follow-up email template to send 7-14 days after initial contact.",
+          "source_skill": "outreach_analyzer"
+        },
+        {
+          "severity": "HIGH",
+          "area": "No Conversion Tracking",
+          "finding": "There is no way to track which outreach leads to actual bookings",
+          "recommendation": "Add columns for 'Partnership Agreed', 'First Referral Date', 'Total Referrals'. This is critical for measuring ROI of your outreach.",
+          "source_skill": "outreach_analyzer"
+        }
+      ],
+      "issues_count": 4
+    },
+    "lead_quality_analyzer": {
+      "skill": "lead_quality_analyzer",
+      "status": "success",
+      "completeness": {
+        "total_leads": 608,
+        "field_completeness": {
+          "name": {
+            "count": 608,
+            "missing": 0,
+            "pct": 100.0
+          },
+          "location": {
+            "count": 608,
+            "missing": 0,
+            "pct": 100.0
+          },
+          "phone": {
+            "count": 466,
+            "missing": 142,
+            "pct": 76.6
+          },
+          "email": {
+            "count": 166,
+            "missing": 442,
+            "pct": 27.3
+          },
+          "website": {
+            "count": 363,
+            "missing": 245,
+            "pct": 59.7
+          },
+          "category": {
+            "count": 608,
+            "missing": 0,
+            "pct": 100.0
+          },
+          "score": {
+            "count": 503,
+            "missing": 105,
+            "pct": 82.7
+          },
+          "date_added": {
+            "count": 608,
+            "missing": 0,
+            "pct": 100.0
+          }
+        },
+        "fully_complete_leads": 127,
+        "fully_complete_pct": 20.9
+      },
+      "categories": {
+        "DENTAL": {
+          "count": 537,
+          "pct": 88.3
+        },
+        "HAIR_TRANSPLANT": {
+          "count": 71,
+          "pct": 11.7
+        }
+      },
+      "proximity_scores": {
+        "total_scored": 509,
+        "unscored": 99,
+        "avg_score": 7.4,
+        "score_distribution": {
+          "0": 6,
+          "1": 19,
+          "2": 54,
+          "3": 5,
+          "4": 2,
+          "5": 8,
+          "6": 12,
+          "7": 68,
+          "8": 78,
+          "9": 168,
+          "10": 89
+        },
+        "high_proximity_1_2km": 335,
+        "medium_proximity_3_12km": 88,
+        "low_proximity_12km_plus": 86
+      },
+      "growth_timeline": {
+        "total_dated": 608,
+        "first_date": "2026-02-16",
+        "last_date": "2026-02-17",
+        "leads_by_date": {
+          "2026-02-16": 99,
+          "2026-02-17": 509
+        },
+        "unique_add_dates": 2
+      },
+      "issues": [
+        {
+          "severity": "HIGH",
+          "area": "Low Email Coverage",
+          "finding": "Only 27.3% of leads have email addresses (442 missing)",
+          "recommendation": "Run email_scraper.py on leads with websites to extract more emails. Consider manual lookup for high-score leads.",
+          "source_skill": "lead_quality_analyzer"
+        },
+        {
+          "severity": "MEDIUM",
+          "area": "Hair Transplant Lead Shortage",
+          "finding": "Only 71 hair transplant leads vs 537 dental leads",
+          "recommendation": "Run more targeted hair transplant queries in the scraper. Albania's hair transplant market is growing fast.",
+          "source_skill": "lead_quality_analyzer"
+        },
+        {
+          "severity": "HIGH",
+          "area": "Low Data Completeness",
+          "finding": "Only 20.9% of leads have all key fields (name + phone + email + category)",
+          "recommendation": "Focus on enriching existing leads before scraping new ones. Quality contacts convert better than quantity.",
+          "source_skill": "lead_quality_analyzer"
+        },
+        {
+          "severity": "MEDIUM",
+          "area": "Lead Acquisition Stalled",
+          "finding": "Leads were only added on 2 different dates",
+          "recommendation": "Set up regular scraping sessions (weekly) to keep discovering new clinics. The market is growing.",
+          "source_skill": "lead_quality_analyzer"
+        }
+      ],
+      "issues_count": 4
+    },
+    "property_analyzer": {
+      "skill": "property_analyzer",
+      "status": "success",
+      "metrics": {
+        "name": "Lulebore Apartment 1",
+        "platforms": [],
+        "guest_capacity": 2,
+        "bedrooms": 1,
+        "bathrooms": null,
+        "photos_count": 8,
+        "airbnb_rating": 4.88,
+        "airbnb_reviews": 33,
+        "booking_rating": 10.0,
+        "booking_reviews": 21,
+        "nightly_rate": 45,
+        "amenities_listed": [],
+        "title": "Soundproofed Retreat in the Heart of Tirana",
+        "marketing_channels": {
+          "| Airbnb": "Active",
+          "Booking.com": "Active",
+          "| WhatsApp outreach to clinics": "Set up, ready to use",
+          "Social media": "Not active",
+          "Direct booking website": "None",
+          "Google Business Profile": "None",
+          "Paid ads (Google/Facebook)": "None"
+        }
+      },
+      "benchmarks": {
+        "photos": {
+          "current": 8,
+          "target": 25,
+          "top_performer": 40,
+          "status": "CRITICAL"
+        },
+        "reviews_airbnb": {
+          "current": 33,
+          "target": 50,
+          "top_performer": 100,
+          "status": "NEEDS_WORK"
+        },
+        "reviews_booking": {
+          "current": 21,
+          "target": 50,
+          "top_performer": 100,
+          "status": "NEEDS_WORK"
+        },
+        "rating_airbnb": {
+          "current": 4.88,
+          "target": 4.8,
+          "top_performer": 4.95,
+          "status": "GOOD"
+        },
+        "rating_booking": {
+          "current": 10.0,
+          "target": 9.0,
+          "top_performer": 9.5,
+          "status": "EXCELLENT"
+        },
+        "guest_capacity": {
+          "current": 2,
+          "target": 2,
+          "top_performer": 4,
+          "status": "OK"
+        },
+        "nightly_rate": {
+          "current": 45,
+          "market_avg": 50,
+          "budget_range": "17-60",
+          "status": "BELOW_AVERAGE"
+        },
+        "marketing_channels": {
+          "active": 2,
+          "total_possible": 7,
+          "target": 5,
+          "status": "LOW"
+        }
+      },
+      "issues": [
+        {
+          "severity": "CRITICAL",
+          "area": "Photo Count",
+          "finding": "Only 8 photos (target: 25+). This is the #1 factor limiting bookings.",
+          "recommendation": "Add 17+ more photos immediately. Include: exterior, each room from multiple angles, amenities close-ups, neighborhood. Professional photography increases bookings by 40%.",
+          "estimated_impact": "40% more bookings",
+          "source_skill": "property_analyzer"
+        },
+        {
+          "severity": "HIGH",
+          "area": "Review Volume",
+          "finding": "Total of 54 reviews across platforms. Listings with 50+ reviews per platform rank significantly higher.",
+          "recommendation": "Send a follow-up message 24h after checkout asking for a review. Guests asked directly are 2x more likely to leave one.",
+          "estimated_impact": "Higher search ranking",
+          "source_skill": "property_analyzer"
+        },
+        {
+          "severity": "HIGH",
+          "area": "Limited Marketing Channels",
+          "finding": "Only 2 active channels out of 7",
+          "recommendation": "Add: social media (Instagram/TikTok), direct booking website, Google Business Profile, paid ads. Multi-platform listings increase occupancy 15-25%.",
+          "estimated_impact": "15-25% more occupancy",
+          "source_skill": "property_analyzer"
+        },
+        {
+          "severity": "MEDIUM",
+          "area": "No Social Media",
+          "finding": "Zero social media presence. Properties with active social media see 23% higher booking rates.",
+          "recommendation": "Create Instagram @lulebore.apartment, post 3x/week with apartment photos, Tirana tips, and guest reviews.",
+          "estimated_impact": "23% higher booking rate",
+          "source_skill": "property_analyzer"
+        },
+        {
+          "severity": "MEDIUM",
+          "area": "No Direct Booking",
+          "finding": "No direct booking website. You're paying 15% platform fees on every booking.",
+          "recommendation": "Create a simple direct booking page with Carrd.co (\u20ac19/year). For repeat guests, this saves significant fees.",
+          "estimated_impact": "Save 15% on repeat bookings",
+          "source_skill": "property_analyzer"
+        },
+        {
+          "severity": "MEDIUM",
+          "area": "No Google Presence",
+          "finding": "No Google Business Profile. Missing free visibility in Google Search and Maps.",
+          "recommendation": "Register as 'Tourist Accommodation' on Google Business. Add photos, collect Google reviews.",
+          "estimated_impact": "Free discovery channel",
+          "source_skill": "property_analyzer"
+        },
+        {
+          "severity": "LOW",
+          "area": "Below-Average Pricing",
+          "finding": "\u20ac45/night vs market average \u20ac50/night",
+          "recommendation": "With a 10/10 Booking.com rating and 4.88 Airbnb rating, you can justify above-average pricing. Consider raising to \u20ac50-55/night after adding more photos.",
+          "estimated_impact": "10-20% more revenue per booking",
+          "source_skill": "property_analyzer"
+        },
+        {
+          "severity": "MEDIUM",
+          "area": "No Video Tour",
+          "finding": "No video tour available. Listings with video get 200% more inquiries.",
+          "recommendation": "Record a 30-60 second walk-through with your phone. Upload to Airbnb, YouTube, Instagram.",
+          "estimated_impact": "200% more inquiries",
+          "source_skill": "property_analyzer"
+        },
+        {
+          "severity": "MEDIUM",
+          "area": "No Long-Stay Discounts",
+          "finding": "No weekly or monthly discounts configured. Medical tourists typically stay 5-14 days.",
+          "recommendation": "Set 10-15% weekly discount and 20-30% monthly discount. This is essential for attracting medical tourists.",
+          "estimated_impact": "Longer average stays",
+          "source_skill": "property_analyzer"
+        }
+      ],
+      "issues_count": 9
+    },
+    "pricing_analyzer": {
+      "skill": "pricing_analyzer",
+      "status": "success",
+      "pricing_analysis": {
+        "current_rate_eur": 45,
+        "market_average_eur": 50,
+        "rate_vs_market_pct": -10.0,
+        "market_percentile": 65.1,
+        "rating_adjusted_fair_price": 57,
+        "rating_premium_pct": 15,
+        "revenue_scenarios": {
+          "current_30_nights": 1350,
+          "current_20_nights": 900,
+          "current_15_nights": 675,
+          "optimized_30_nights": 1710,
+          "optimized_20_nights": 1140,
+          "optimized_15_nights": 855
+        },
+        "medical_weekly_rate": 268,
+        "medical_biweekly_rate": 504,
+        "potential_monthly_revenue_gain": 240
+      },
+      "issues": [
+        {
+          "severity": "HIGH",
+          "area": "Underpriced for Rating Quality",
+          "finding": "Charging \u20ac45/night but your ratings (4.88 Airbnb, 10/10 Booking) justify \u20ac57/night. You're leaving \u20ac12/night on the table.",
+          "recommendation": "Gradually increase to \u20ac57/night. Start by raising \u20ac2-3 every 2 weeks. With 15% rating premium, this could mean \u20ac240/month more revenue (assuming 20 nights occupancy).",
+          "estimated_impact": "+\u20ac240/month",
+          "source_skill": "pricing_analyzer"
+        },
+        {
+          "severity": "HIGH",
+          "area": "No Dynamic Pricing",
+          "finding": "Not using any dynamic pricing tool. Static pricing leaves money on the table during high-demand periods.",
+          "recommendation": "Enable Airbnb Smart Pricing or sign up for PriceLabs/Beyond Pricing. These tools automatically adjust rates based on demand, events, and seasonality.",
+          "estimated_impact": "10-20% more revenue",
+          "source_skill": "pricing_analyzer"
+        },
+        {
+          "severity": "HIGH",
+          "area": "No Long-Stay Discounts",
+          "finding": "No weekly or monthly discounts configured. Medical tourists stay 5-14 days on average.",
+          "recommendation": "Set up: 10-15% weekly discount (\u20ac268/week), 20% bi-weekly discount (\u20ac504/2 weeks). This is the #1 way to attract medical tourist bookings.",
+          "estimated_impact": "Attract longer stays, higher total revenue",
+          "source_skill": "pricing_analyzer"
+        },
+        {
+          "severity": "MEDIUM",
+          "area": "No Seasonal Pricing",
+          "finding": "No evidence of seasonal price adjustments. Tirana has clear high season (Apr-Oct) and low season (Nov-Mar).",
+          "recommendation": "Set high season rate at \u20ac50-55/night (Apr-Oct), shoulder season at \u20ac45/night (Mar, Nov), low season at \u20ac35-40/night (Dec-Feb). Maintain occupancy year-round.",
+          "estimated_impact": "Consistent occupancy year-round",
+          "source_skill": "pricing_analyzer"
+        },
+        {
+          "severity": "MEDIUM",
+          "area": "No Direct Booking Incentive",
+          "finding": "No direct booking channel with better pricing. Airbnb charges ~15% in fees.",
+          "recommendation": "Offer 10% discount for direct bookings through your own website. You still earn 5% more than Airbnb bookings, and guests save money too.",
+          "estimated_impact": "Save 5-15% on fees per booking",
+          "source_skill": "pricing_analyzer"
+        },
+        {
+          "severity": "MEDIUM",
+          "area": "No Clinic Referral Rate",
+          "finding": "No special rate for clinic-referred patients. Clinics need a clear incentive to recommend you.",
+          "recommendation": "Create a 'Clinic Partner Rate' at 10% off for patients referred by partner clinics. Give clinics \u20ac5-10 commission per night. Both sides win.",
+          "estimated_impact": "Steady stream of referral bookings",
+          "source_skill": "pricing_analyzer"
+        }
+      ],
+      "issues_count": 6
+    },
+    "marketing_analyzer": {
+      "skill": "marketing_analyzer",
+      "status": "success",
+      "channel_analysis": {
+        "active_channels": 3,
+        "minimal_channels": 1,
+        "not_started_channels": 8,
+        "total_channels": 12,
+        "utilization_pct": 29.2
+      },
+      "issues": [
+        {
+          "severity": "CRITICAL",
+          "area": "Extremely Low Channel Utilization",
+          "finding": "Only using 3 of 12 marketing channels (29.2% utilization)",
+          "recommendation": "You're relying almost entirely on Airbnb and Booking.com. This is a single point of failure. Diversify immediately.",
+          "source_skill": "marketing_analyzer"
+        },
+        {
+          "severity": "HIGH",
+          "area": "WhatsApp Channel Wasted",
+          "finding": "Only 0 of 466 phone leads contacted via WhatsApp",
+          "recommendation": "WhatsApp has 3-5x higher response rate than email for B2B in Albania. Prioritize WhatsApp outreach over email for initial contact.",
+          "source_skill": "marketing_analyzer"
+        },
+        {
+          "severity": "HIGH",
+          "area": "Zero Social Media Presence",
+          "finding": "Properties with active social media see 23% higher booking rates. You have no presence at all.",
+          "recommendation": "Create Instagram @lulebore.apartment this week. Post 3x/week: apartment photos, Tirana neighborhood shots, guest testimonials. Start TikTok for medical tourism content.",
+          "source_skill": "marketing_analyzer"
+        },
+        {
+          "severity": "HIGH",
+          "area": "No In-Person Clinic Relationships",
+          "finding": "Only doing remote outreach (email/WhatsApp). In-person visits are 10x more effective for partnership building.",
+          "recommendation": "Visit the top 20 clinics with highest proximity scores in person. Bring printed flyers with QR code and a clear commission offer (\u20ac5-10/night per referral).",
+          "source_skill": "marketing_analyzer"
+        },
+        {
+          "severity": "MEDIUM",
+          "area": "No Direct Booking Channel",
+          "finding": "Paying 15% commission on every booking to platforms. No way for returning guests to book directly.",
+          "recommendation": "Create a simple direct booking page (Carrd.co, \u20ac19/year). Offer 10% discount for direct bookings \u2014 you still save 5% vs platform fees.",
+          "source_skill": "marketing_analyzer"
+        },
+        {
+          "severity": "MEDIUM",
+          "area": "Invisible on Google",
+          "finding": "No Google Business Profile. When someone searches 'apartment near dental clinic Tirana', you don't appear.",
+          "recommendation": "Set up Google Business Profile as 'Tourist Accommodation'. Add all photos, respond to reviews, post weekly updates. It's 100% free.",
+          "source_skill": "marketing_analyzer"
+        },
+        {
+          "severity": "MEDIUM",
+          "area": "No Paid Acquisition",
+          "finding": "Not running any paid ads. Relying entirely on organic discovery and manual outreach.",
+          "recommendation": "Start with \u20ac5/day Google Ads targeting 'dental tourism accommodation Tirana'. A single booking pays for 3+ months of ads.",
+          "source_skill": "marketing_analyzer"
+        },
+        {
+          "severity": "MEDIUM",
+          "area": "No Follow-Up Campaign",
+          "finding": "Only one outreach email template. No follow-up sequence for clinics that didn't respond.",
+          "recommendation": "Create a 3-email sequence: (1) Introduction, (2) Follow-up after 7 days with testimonial, (3) Final follow-up after 14 days with special offer. Most B2B responses come on the 2nd or 3rd email.",
+          "source_skill": "marketing_analyzer"
+        },
+        {
+          "severity": "LOW",
+          "area": "No Guest Email Marketing",
+          "finding": "Not collecting guest emails for remarketing. Past guests are 5x cheaper to convert than new ones.",
+          "recommendation": "Collect guest emails (with permission). Send quarterly newsletter with seasonal discounts and updates.",
+          "source_skill": "marketing_analyzer"
+        },
+        {
+          "severity": "LOW",
+          "area": "No Content Marketing",
+          "finding": "No blog, YouTube, or content that could rank in Google for medical tourism keywords.",
+          "recommendation": "Create content targeting: 'best apartment for dental tourists Tirana', 'recovery accommodation after hair transplant Albania'. A simple blog post can bring passive organic traffic.",
+          "source_skill": "marketing_analyzer"
+        }
+      ],
+      "issues_count": 10
+    },
+    "competitor_analyzer": {
+      "skill": "competitor_analyzer",
+      "status": "success",
+      "market_landscape": {
+        "market_overview": {
+          "total_listings_tirana": 3639,
+          "avg_nightly_rate": 50,
+          "rate_range": "\u20ac17-60/night",
+          "top_competitor_photos": "25-40",
+          "top_competitor_capacity": "2-4 guests",
+          "top_competitor_features": [
+            "Panoramic views",
+            "Rooftop access",
+            "Balconies",
+            "Professional photography",
+            "Superhost status",
+            "Detailed descriptions with walking distances"
+          ]
+        },
+        "medical_tourism_market": {
+          "annual_patients_albania": 80000,
+          "growth_since_2020": "400%",
+          "top_source_countries": [
+            "Italy",
+            "UK",
+            "Germany"
+          ],
+          "projected_top5_by": 2027,
+          "avg_patient_stay_days": "5-14",
+          "dental_procedures": [
+            "Implants",
+            "Veneers",
+            "Whitening",
+            "Orthodontics"
+          ],
+          "hair_procedures": [
+            "FUE Transplant",
+            "DHI Transplant"
+          ]
+        }
+      },
+      "competitive_position": {
+        "gaps_count": 7,
+        "advantages_count": 5
+      },
+      "issues": [
+        {
+          "severity": "MEDIUM",
+          "area": "Competitive Gap: Superhost Status",
+          "finding": "Not a Superhost yet (requires consistent performance metrics)",
+          "recommendation": "Maintain 4.8+ rating, <1% cancellation rate, 90%+ response rate, 10+ stays/year",
+          "source_skill": "competitor_analyzer"
+        },
+        {
+          "severity": "HIGH",
+          "area": "Competitive Gap: Photo Quality",
+          "finding": "8 photos vs competitor average of 25-40",
+          "recommendation": "Add 20+ photos covering every room, amenity, and the neighborhood",
+          "source_skill": "competitor_analyzer"
+        },
+        {
+          "severity": "HIGH",
+          "area": "Competitive Gap: Guest Capacity",
+          "finding": "2 guests vs competitor average of 2-4",
+          "recommendation": "If space allows, add a sofa bed to increase capacity to 3-4",
+          "source_skill": "competitor_analyzer"
+        },
+        {
+          "severity": "HIGH",
+          "area": "Competitive Gap: Description Depth",
+          "finding": "2-sentence description vs competitor multi-paragraph narratives",
+          "recommendation": "Write 3-4 paragraphs covering hook, room details, neighborhood, and medical tourism angle",
+          "source_skill": "competitor_analyzer"
+        },
+        {
+          "severity": "MEDIUM",
+          "area": "Competitive Gap: Platform Presence",
+          "finding": "2 platforms vs some competitors on 4-5 platforms",
+          "recommendation": "Add Google Vacation Rentals, Facebook Marketplace, and a direct booking site",
+          "source_skill": "competitor_analyzer"
+        },
+        {
+          "severity": "MEDIUM",
+          "area": "Competitive Gap: Social Proof",
+          "finding": "54 total reviews vs top competitors with 100+",
+          "recommendation": "Actively request reviews from every guest post-checkout",
+          "source_skill": "competitor_analyzer"
+        },
+        {
+          "severity": "MEDIUM",
+          "area": "Competitive Gap: Video Content",
+          "finding": "No video tour vs competitors with YouTube/Instagram video content",
+          "recommendation": "Record a 30-60 second walk-through video",
+          "source_skill": "competitor_analyzer"
+        },
+        {
+          "severity": "MEDIUM",
+          "area": "Underleveraged Advantage: Soundproofing",
+          "finding": "Unique strength: Almost no competitors in Tirana offer soundproofing",
+          "recommendation": "Emphasize in title and description. Critical for post-surgery recovery guests.",
+          "source_skill": "competitor_analyzer"
+        },
+        {
+          "severity": "MEDIUM",
+          "area": "Underleveraged Advantage: Private Entrance",
+          "finding": "Unique strength: Rare in Tirana apartment market",
+          "recommendation": "Privacy is the #1 concern for medical tourists. Feature prominently.",
+          "source_skill": "competitor_analyzer"
+        },
+        {
+          "severity": "MEDIUM",
+          "area": "Underleveraged Advantage: Medical Niche",
+          "finding": "Unique strength: Almost nobody in Tirana targets medical tourists specifically",
+          "recommendation": "First-mover advantage. Build clinic partnerships before competitors catch on.",
+          "source_skill": "competitor_analyzer"
+        },
+        {
+          "severity": "MEDIUM",
+          "area": "Underleveraged Advantage: Perfect Booking Rating",
+          "finding": "Unique strength: 10/10 on Booking.com is exceptional",
+          "recommendation": "Use this in all marketing. '10/10 rated' is a powerful trust signal.",
+          "source_skill": "competitor_analyzer"
+        },
+        {
+          "severity": "MEDIUM",
+          "area": "Underleveraged Advantage: Location Proximity",
+          "finding": "Unique strength: Central location close to all major clinics",
+          "recommendation": "Map showing walking distances to top clinics would be a unique selling tool.",
+          "source_skill": "competitor_analyzer"
+        },
+        {
+          "severity": "HIGH",
+          "area": "First-Mover Window Closing",
+          "finding": "Albania's medical tourism grew 400% since 2020 with 80,000 annual patients. Competitors will start targeting this niche soon.",
+          "recommendation": "Lock in clinic partnerships NOW with commission agreements. Build brand recognition in the medical tourism space before competitors enter. Speed is your biggest advantage.",
+          "source_skill": "competitor_analyzer"
+        },
+        {
+          "severity": "MEDIUM",
+          "area": "No Recovery-Specific Amenities",
+          "finding": "No medical recovery amenities mentioned (ice packs, blender for smoothies, neck pillows). This is an easy differentiator.",
+          "recommendation": "Add ice packs, a blender, straws, extra soft towels, and a neck pillow. Cost: <\u20ac50 total. Mention these in your listing \u2014 no competitor does this.",
+          "source_skill": "competitor_analyzer"
+        }
+      ],
+      "issues_count": 14
+    },
+    "review_analyzer": {
+      "skill": "review_analyzer",
+      "status": "success",
+      "review_metrics": {
+        "platforms": {
+          "airbnb": {
+            "rating": 4.88,
+            "total_reviews": 33,
+            "platform": "Airbnb"
+          },
+          "booking_com": {
+            "rating": 10.0,
+            "total_reviews": 21,
+            "platform": "Booking.com"
+          }
+        },
+        "total_reviews": 54,
+        "weighted_satisfaction": 98.5,
+        "avg_reviews_per_platform": 27.0
+      },
+      "velocity": {
+        "estimated_months_active": 24,
+        "avg_reviews_per_month": 2.2,
+        "target_reviews_per_month": 5,
+        "velocity_vs_target_pct": 45.0,
+        "months_to_100_reviews": 20,
+        "months_to_superhost": -91
+      },
+      "guest_experience": {
+        "experience_score_pct": 37.5,
+        "excellent": 1,
+        "good": 3,
+        "missing": 4,
+        "needs_work": 1
+      },
+      "issues": [
+        {
+          "severity": "HIGH",
+          "area": "Low Review Velocity",
+          "finding": "Only 2.2 reviews/month vs target of 5/month",
+          "recommendation": "Proactively ask every guest for a review 24h after checkout. Consider a small incentive (future discount coupon) for leaving a review.",
+          "source_skill": "review_analyzer"
+        },
+        {
+          "severity": "HIGH",
+          "area": "Missing: Welcome Package",
+          "finding": "No welcome basket or personal touch at arrival",
+          "recommendation": "Add Albanian coffee, local biscuits, water bottle, and a handwritten welcome note (~\u20ac5/guest)",
+          "source_skill": "review_analyzer"
+        },
+        {
+          "severity": "MEDIUM",
+          "area": "Missing: Recovery Amenities",
+          "finding": "No ice packs, blender, extra soft towels, or recovery-specific amenities",
+          "recommendation": "Stock: ice packs, blender for smoothies, straws, neck pillow, extra soft towels. Total cost: <\u20ac50",
+          "source_skill": "review_analyzer"
+        },
+        {
+          "severity": "MEDIUM",
+          "area": "Missing: Digital Guidebook",
+          "finding": "No digital guide with WiFi password, local tips, emergency numbers, clinic locations",
+          "recommendation": "Create a Touchstay or PDF guidebook with: WiFi, apartment guide, nearest pharmacy/grocery/ATM, restaurants, transport tips, clinic map",
+          "source_skill": "review_analyzer"
+        },
+        {
+          "severity": "HIGH",
+          "area": "Missing: Post Checkout Followup",
+          "finding": "No follow-up message asking for reviews",
+          "recommendation": "Send a thank-you message 24 hours after checkout. Guests asked for reviews are 2x more likely to leave one.",
+          "source_skill": "review_analyzer"
+        },
+        {
+          "severity": "MEDIUM",
+          "area": "No Review Response Strategy",
+          "finding": "No evidence of systematic review responses. Responding to reviews boosts search ranking and builds trust.",
+          "recommendation": "Respond to every review within 24 hours. Thank positive reviewers by name. For any constructive feedback, acknowledge and explain how you've improved.",
+          "source_skill": "review_analyzer"
+        },
+        {
+          "severity": "MEDIUM",
+          "area": "Below Superhost Review Threshold",
+          "finding": "54 total reviews. Superhost status requires consistent volume. Listings with 100+ reviews rank significantly higher.",
+          "recommendation": "At current rate, you'll reach 100 reviews in ~20 months. Increase velocity by asking every guest for a review.",
+          "source_skill": "review_analyzer"
+        }
+      ],
+      "issues_count": 7
+    }
+  },
+  "prioritized_issues": [
+    {
+      "severity": "CRITICAL",
+      "area": "Extremely Low Channel Utilization",
+      "finding": "Only using 3 of 12 marketing channels (29.2% utilization)",
+      "recommendation": "You're relying almost entirely on Airbnb and Booking.com. This is a single point of failure. Diversify immediately.",
+      "source_skill": "marketing_analyzer"
+    },
+    {
+      "severity": "CRITICAL",
+      "area": "Photo Count",
+      "finding": "Only 8 photos (target: 25+). This is the #1 factor limiting bookings.",
+      "recommendation": "Add 17+ more photos immediately. Include: exterior, each room from multiple angles, amenities close-ups, neighborhood. Professional photography increases bookings by 40%.",
+      "estimated_impact": "40% more bookings",
+      "source_skill": "property_analyzer"
+    },
+    {
+      "severity": "HIGH",
+      "area": "Competitive Gap: Description Depth",
+      "finding": "2-sentence description vs competitor multi-paragraph narratives",
+      "recommendation": "Write 3-4 paragraphs covering hook, room details, neighborhood, and medical tourism angle",
+      "source_skill": "competitor_analyzer"
+    },
+    {
+      "severity": "HIGH",
+      "area": "Competitive Gap: Guest Capacity",
+      "finding": "2 guests vs competitor average of 2-4",
+      "recommendation": "If space allows, add a sofa bed to increase capacity to 3-4",
+      "source_skill": "competitor_analyzer"
+    },
+    {
+      "severity": "HIGH",
+      "area": "Competitive Gap: Photo Quality",
+      "finding": "8 photos vs competitor average of 25-40",
+      "recommendation": "Add 20+ photos covering every room, amenity, and the neighborhood",
+      "source_skill": "competitor_analyzer"
+    },
+    {
+      "severity": "HIGH",
+      "area": "Email Data Gap",
+      "finding": "Only 26.8% of all leads have been emailed (many leads lack email addresses)",
+      "recommendation": "Run email_scraper.py to extract more email addresses from clinic websites.",
+      "source_skill": "outreach_analyzer"
+    },
+    {
+      "severity": "HIGH",
+      "area": "First-Mover Window Closing",
+      "finding": "Albania's medical tourism grew 400% since 2020 with 80,000 annual patients. Competitors will start targeting this niche soon.",
+      "recommendation": "Lock in clinic partnerships NOW with commission agreements. Build brand recognition in the medical tourism space before competitors enter. Speed is your biggest advantage.",
+      "source_skill": "competitor_analyzer"
+    },
+    {
+      "severity": "HIGH",
+      "area": "Limited Marketing Channels",
+      "finding": "Only 2 active channels out of 7",
+      "recommendation": "Add: social media (Instagram/TikTok), direct booking website, Google Business Profile, paid ads. Multi-platform listings increase occupancy 15-25%.",
+      "estimated_impact": "15-25% more occupancy",
+      "source_skill": "property_analyzer"
+    },
+    {
+      "severity": "HIGH",
+      "area": "Low Data Completeness",
+      "finding": "Only 20.9% of leads have all key fields (name + phone + email + category)",
+      "recommendation": "Focus on enriching existing leads before scraping new ones. Quality contacts convert better than quantity.",
+      "source_skill": "lead_quality_analyzer"
+    },
+    {
+      "severity": "HIGH",
+      "area": "Low Email Coverage",
+      "finding": "Only 27.3% of leads have email addresses (442 missing)",
+      "recommendation": "Run email_scraper.py on leads with websites to extract more emails. Consider manual lookup for high-score leads.",
+      "source_skill": "lead_quality_analyzer"
+    },
+    {
+      "severity": "HIGH",
+      "area": "Low Review Velocity",
+      "finding": "Only 2.2 reviews/month vs target of 5/month",
+      "recommendation": "Proactively ask every guest for a review 24h after checkout. Consider a small incentive (future discount coupon) for leaving a review.",
+      "source_skill": "review_analyzer"
+    },
+    {
+      "severity": "HIGH",
+      "area": "Missing: Post Checkout Followup",
+      "finding": "No follow-up message asking for reviews",
+      "recommendation": "Send a thank-you message 24 hours after checkout. Guests asked for reviews are 2x more likely to leave one.",
+      "source_skill": "review_analyzer"
+    },
+    {
+      "severity": "HIGH",
+      "area": "Missing: Welcome Package",
+      "finding": "No welcome basket or personal touch at arrival",
+      "recommendation": "Add Albanian coffee, local biscuits, water bottle, and a handwritten welcome note (~\u20ac5/guest)",
+      "source_skill": "review_analyzer"
+    },
+    {
+      "severity": "HIGH",
+      "area": "No Conversion Tracking",
+      "finding": "There is no way to track which outreach leads to actual bookings",
+      "recommendation": "Add columns for 'Partnership Agreed', 'First Referral Date', 'Total Referrals'. This is critical for measuring ROI of your outreach.",
+      "source_skill": "outreach_analyzer"
+    },
+    {
+      "severity": "HIGH",
+      "area": "No Dynamic Pricing",
+      "finding": "Not using any dynamic pricing tool. Static pricing leaves money on the table during high-demand periods.",
+      "recommendation": "Enable Airbnb Smart Pricing or sign up for PriceLabs/Beyond Pricing. These tools automatically adjust rates based on demand, events, and seasonality.",
+      "estimated_impact": "10-20% more revenue",
+      "source_skill": "pricing_analyzer"
+    },
+    {
+      "severity": "HIGH",
+      "area": "No In-Person Clinic Relationships",
+      "finding": "Only doing remote outreach (email/WhatsApp). In-person visits are 10x more effective for partnership building.",
+      "recommendation": "Visit the top 20 clinics with highest proximity scores in person. Bring printed flyers with QR code and a clear commission offer (\u20ac5-10/night per referral).",
+      "source_skill": "marketing_analyzer"
+    },
+    {
+      "severity": "HIGH",
+      "area": "No Long-Stay Discounts",
+      "finding": "No weekly or monthly discounts configured. Medical tourists stay 5-14 days on average.",
+      "recommendation": "Set up: 10-15% weekly discount (\u20ac268/week), 20% bi-weekly discount (\u20ac504/2 weeks). This is the #1 way to attract medical tourist bookings.",
+      "estimated_impact": "Attract longer stays, higher total revenue",
+      "source_skill": "pricing_analyzer"
+    },
+    {
+      "severity": "HIGH",
+      "area": "Review Volume",
+      "finding": "Total of 54 reviews across platforms. Listings with 50+ reviews per platform rank significantly higher.",
+      "recommendation": "Send a follow-up message 24h after checkout asking for a review. Guests asked directly are 2x more likely to leave one.",
+      "estimated_impact": "Higher search ranking",
+      "source_skill": "property_analyzer"
+    },
+    {
+      "severity": "HIGH",
+      "area": "Underpriced for Rating Quality",
+      "finding": "Charging \u20ac45/night but your ratings (4.88 Airbnb, 10/10 Booking) justify \u20ac57/night. You're leaving \u20ac12/night on the table.",
+      "recommendation": "Gradually increase to \u20ac57/night. Start by raising \u20ac2-3 every 2 weeks. With 15% rating premium, this could mean \u20ac240/month more revenue (assuming 20 nights occupancy).",
+      "estimated_impact": "+\u20ac240/month",
+      "source_skill": "pricing_analyzer"
+    },
+    {
+      "severity": "HIGH",
+      "area": "WhatsApp Channel Wasted",
+      "finding": "Only 0 of 466 phone leads contacted via WhatsApp",
+      "recommendation": "WhatsApp has 3-5x higher response rate than email for B2B in Albania. Prioritize WhatsApp outreach over email for initial contact.",
+      "source_skill": "marketing_analyzer"
+    },
+    {
+      "severity": "HIGH",
+      "area": "WhatsApp Underutilized",
+      "finding": "Only 0.0% of leads with phone have been messaged via WhatsApp",
+      "recommendation": "WhatsApp is more personal and gets higher response rates. 466 leads are waiting. Run whatsapp_sender.py.",
+      "source_skill": "outreach_analyzer"
+    },
+    {
+      "severity": "HIGH",
+      "area": "Zero Social Media Presence",
+      "finding": "Properties with active social media see 23% higher booking rates. You have no presence at all.",
+      "recommendation": "Create Instagram @lulebore.apartment this week. Post 3x/week: apartment photos, Tirana neighborhood shots, guest testimonials. Start TikTok for medical tourism content.",
+      "source_skill": "marketing_analyzer"
+    },
+    {
+      "severity": "MEDIUM",
+      "area": "Below Superhost Review Threshold",
+      "finding": "54 total reviews. Superhost status requires consistent volume. Listings with 100+ reviews rank significantly higher.",
+      "recommendation": "At current rate, you'll reach 100 reviews in ~20 months. Increase velocity by asking every guest for a review.",
+      "source_skill": "review_analyzer"
+    },
+    {
+      "severity": "MEDIUM",
+      "area": "Competitive Gap: Platform Presence",
+      "finding": "2 platforms vs some competitors on 4-5 platforms",
+      "recommendation": "Add Google Vacation Rentals, Facebook Marketplace, and a direct booking site",
+      "source_skill": "competitor_analyzer"
+    },
+    {
+      "severity": "MEDIUM",
+      "area": "Competitive Gap: Social Proof",
+      "finding": "54 total reviews vs top competitors with 100+",
+      "recommendation": "Actively request reviews from every guest post-checkout",
+      "source_skill": "competitor_analyzer"
+    },
+    {
+      "severity": "MEDIUM",
+      "area": "Competitive Gap: Superhost Status",
+      "finding": "Not a Superhost yet (requires consistent performance metrics)",
+      "recommendation": "Maintain 4.8+ rating, <1% cancellation rate, 90%+ response rate, 10+ stays/year",
+      "source_skill": "competitor_analyzer"
+    },
+    {
+      "severity": "MEDIUM",
+      "area": "Competitive Gap: Video Content",
+      "finding": "No video tour vs competitors with YouTube/Instagram video content",
+      "recommendation": "Record a 30-60 second walk-through video",
+      "source_skill": "competitor_analyzer"
+    },
+    {
+      "severity": "MEDIUM",
+      "area": "Hair Transplant Lead Shortage",
+      "finding": "Only 71 hair transplant leads vs 537 dental leads",
+      "recommendation": "Run more targeted hair transplant queries in the scraper. Albania's hair transplant market is growing fast.",
+      "source_skill": "lead_quality_analyzer"
+    },
+    {
+      "severity": "MEDIUM",
+      "area": "Invisible on Google",
+      "finding": "No Google Business Profile. When someone searches 'apartment near dental clinic Tirana', you don't appear.",
+      "recommendation": "Set up Google Business Profile as 'Tourist Accommodation'. Add all photos, respond to reviews, post weekly updates. It's 100% free.",
+      "source_skill": "marketing_analyzer"
+    },
+    {
+      "severity": "MEDIUM",
+      "area": "Lead Acquisition Stalled",
+      "finding": "Leads were only added on 2 different dates",
+      "recommendation": "Set up regular scraping sessions (weekly) to keep discovering new clinics. The market is growing.",
+      "source_skill": "lead_quality_analyzer"
+    },
+    {
+      "severity": "MEDIUM",
+      "area": "Missing: Digital Guidebook",
+      "finding": "No digital guide with WiFi password, local tips, emergency numbers, clinic locations",
+      "recommendation": "Create a Touchstay or PDF guidebook with: WiFi, apartment guide, nearest pharmacy/grocery/ATM, restaurants, transport tips, clinic map",
+      "source_skill": "review_analyzer"
+    },
+    {
+      "severity": "MEDIUM",
+      "area": "Missing: Recovery Amenities",
+      "finding": "No ice packs, blender, extra soft towels, or recovery-specific amenities",
+      "recommendation": "Stock: ice packs, blender for smoothies, straws, neck pillow, extra soft towels. Total cost: <\u20ac50",
+      "source_skill": "review_analyzer"
+    },
+    {
+      "severity": "MEDIUM",
+      "area": "No Clinic Referral Rate",
+      "finding": "No special rate for clinic-referred patients. Clinics need a clear incentive to recommend you.",
+      "recommendation": "Create a 'Clinic Partner Rate' at 10% off for patients referred by partner clinics. Give clinics \u20ac5-10 commission per night. Both sides win.",
+      "estimated_impact": "Steady stream of referral bookings",
+      "source_skill": "pricing_analyzer"
+    },
+    {
+      "severity": "MEDIUM",
+      "area": "No Direct Booking",
+      "finding": "No direct booking website. You're paying 15% platform fees on every booking.",
+      "recommendation": "Create a simple direct booking page with Carrd.co (\u20ac19/year). For repeat guests, this saves significant fees.",
+      "estimated_impact": "Save 15% on repeat bookings",
+      "source_skill": "property_analyzer"
+    },
+    {
+      "severity": "MEDIUM",
+      "area": "No Direct Booking Channel",
+      "finding": "Paying 15% commission on every booking to platforms. No way for returning guests to book directly.",
+      "recommendation": "Create a simple direct booking page (Carrd.co, \u20ac19/year). Offer 10% discount for direct bookings \u2014 you still save 5% vs platform fees.",
+      "source_skill": "marketing_analyzer"
+    },
+    {
+      "severity": "MEDIUM",
+      "area": "No Direct Booking Incentive",
+      "finding": "No direct booking channel with better pricing. Airbnb charges ~15% in fees.",
+      "recommendation": "Offer 10% discount for direct bookings through your own website. You still earn 5% more than Airbnb bookings, and guests save money too.",
+      "estimated_impact": "Save 5-15% on fees per booking",
+      "source_skill": "pricing_analyzer"
+    },
+    {
+      "severity": "MEDIUM",
+      "area": "No Follow-Up Campaign",
+      "finding": "Only one outreach email template. No follow-up sequence for clinics that didn't respond.",
+      "recommendation": "Create a 3-email sequence: (1) Introduction, (2) Follow-up after 7 days with testimonial, (3) Final follow-up after 14 days with special offer. Most B2B responses come on the 2nd or 3rd email.",
+      "source_skill": "marketing_analyzer"
+    },
+    {
+      "severity": "MEDIUM",
+      "area": "No Follow-Up System",
+      "finding": "There is no mechanism to track responses or send follow-up emails",
+      "recommendation": "Add a 'Responded' column to track which clinics replied. Create a follow-up email template to send 7-14 days after initial contact.",
+      "source_skill": "outreach_analyzer"
+    },
+    {
+      "severity": "MEDIUM",
+      "area": "No Google Presence",
+      "finding": "No Google Business Profile. Missing free visibility in Google Search and Maps.",
+      "recommendation": "Register as 'Tourist Accommodation' on Google Business. Add photos, collect Google reviews.",
+      "estimated_impact": "Free discovery channel",
+      "source_skill": "property_analyzer"
+    },
+    {
+      "severity": "MEDIUM",
+      "area": "No Long-Stay Discounts",
+      "finding": "No weekly or monthly discounts configured. Medical tourists typically stay 5-14 days.",
+      "recommendation": "Set 10-15% weekly discount and 20-30% monthly discount. This is essential for attracting medical tourists.",
+      "estimated_impact": "Longer average stays",
+      "source_skill": "property_analyzer"
+    },
+    {
+      "severity": "MEDIUM",
+      "area": "No Paid Acquisition",
+      "finding": "Not running any paid ads. Relying entirely on organic discovery and manual outreach.",
+      "recommendation": "Start with \u20ac5/day Google Ads targeting 'dental tourism accommodation Tirana'. A single booking pays for 3+ months of ads.",
+      "source_skill": "marketing_analyzer"
+    },
+    {
+      "severity": "MEDIUM",
+      "area": "No Recovery-Specific Amenities",
+      "finding": "No medical recovery amenities mentioned (ice packs, blender for smoothies, neck pillows). This is an easy differentiator.",
+      "recommendation": "Add ice packs, a blender, straws, extra soft towels, and a neck pillow. Cost: <\u20ac50 total. Mention these in your listing \u2014 no competitor does this.",
+      "source_skill": "competitor_analyzer"
+    },
+    {
+      "severity": "MEDIUM",
+      "area": "No Review Response Strategy",
+      "finding": "No evidence of systematic review responses. Responding to reviews boosts search ranking and builds trust.",
+      "recommendation": "Respond to every review within 24 hours. Thank positive reviewers by name. For any constructive feedback, acknowledge and explain how you've improved.",
+      "source_skill": "review_analyzer"
+    },
+    {
+      "severity": "MEDIUM",
+      "area": "No Seasonal Pricing",
+      "finding": "No evidence of seasonal price adjustments. Tirana has clear high season (Apr-Oct) and low season (Nov-Mar).",
+      "recommendation": "Set high season rate at \u20ac50-55/night (Apr-Oct), shoulder season at \u20ac45/night (Mar, Nov), low season at \u20ac35-40/night (Dec-Feb). Maintain occupancy year-round.",
+      "estimated_impact": "Consistent occupancy year-round",
+      "source_skill": "pricing_analyzer"
+    },
+    {
+      "severity": "MEDIUM",
+      "area": "No Social Media",
+      "finding": "Zero social media presence. Properties with active social media see 23% higher booking rates.",
+      "recommendation": "Create Instagram @lulebore.apartment, post 3x/week with apartment photos, Tirana tips, and guest reviews.",
+      "estimated_impact": "23% higher booking rate",
+      "source_skill": "property_analyzer"
+    },
+    {
+      "severity": "MEDIUM",
+      "area": "No Video Tour",
+      "finding": "No video tour available. Listings with video get 200% more inquiries.",
+      "recommendation": "Record a 30-60 second walk-through with your phone. Upload to Airbnb, YouTube, Instagram.",
+      "estimated_impact": "200% more inquiries",
+      "source_skill": "property_analyzer"
+    },
+    {
+      "severity": "MEDIUM",
+      "area": "Underleveraged Advantage: Location Proximity",
+      "finding": "Unique strength: Central location close to all major clinics",
+      "recommendation": "Map showing walking distances to top clinics would be a unique selling tool.",
+      "source_skill": "competitor_analyzer"
+    },
+    {
+      "severity": "MEDIUM",
+      "area": "Underleveraged Advantage: Medical Niche",
+      "finding": "Unique strength: Almost nobody in Tirana targets medical tourists specifically",
+      "recommendation": "First-mover advantage. Build clinic partnerships before competitors catch on.",
+      "source_skill": "competitor_analyzer"
+    },
+    {
+      "severity": "MEDIUM",
+      "area": "Underleveraged Advantage: Perfect Booking Rating",
+      "finding": "Unique strength: 10/10 on Booking.com is exceptional",
+      "recommendation": "Use this in all marketing. '10/10 rated' is a powerful trust signal.",
+      "source_skill": "competitor_analyzer"
+    },
+    {
+      "severity": "MEDIUM",
+      "area": "Underleveraged Advantage: Private Entrance",
+      "finding": "Unique strength: Rare in Tirana apartment market",
+      "recommendation": "Privacy is the #1 concern for medical tourists. Feature prominently.",
+      "source_skill": "competitor_analyzer"
+    },
+    {
+      "severity": "MEDIUM",
+      "area": "Underleveraged Advantage: Soundproofing",
+      "finding": "Unique strength: Almost no competitors in Tirana offer soundproofing",
+      "recommendation": "Emphasize in title and description. Critical for post-surgery recovery guests.",
+      "source_skill": "competitor_analyzer"
+    },
+    {
+      "severity": "LOW",
+      "area": "Below-Average Pricing",
+      "finding": "\u20ac45/night vs market average \u20ac50/night",
+      "recommendation": "With a 10/10 Booking.com rating and 4.88 Airbnb rating, you can justify above-average pricing. Consider raising to \u20ac50-55/night after adding more photos.",
+      "estimated_impact": "10-20% more revenue per booking",
+      "source_skill": "property_analyzer"
+    },
+    {
+      "severity": "LOW",
+      "area": "No Content Marketing",
+      "finding": "No blog, YouTube, or content that could rank in Google for medical tourism keywords.",
+      "recommendation": "Create content targeting: 'best apartment for dental tourists Tirana', 'recovery accommodation after hair transplant Albania'. A simple blog post can bring passive organic traffic.",
+      "source_skill": "marketing_analyzer"
+    },
+    {
+      "severity": "LOW",
+      "area": "No Guest Email Marketing",
+      "finding": "Not collecting guest emails for remarketing. Past guests are 5x cheaper to convert than new ones.",
+      "recommendation": "Collect guest emails (with permission). Send quarterly newsletter with seasonal discounts and updates.",
+      "source_skill": "marketing_analyzer"
+    }
+  ]
+}

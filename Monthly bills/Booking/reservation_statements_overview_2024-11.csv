@@ -1,0 +1,3 @@
+"Reservation number","Invoice number","Booked on","Arrival","Departure","Booker name","Guest name","Rooms","Persons","Room nights","Commission %","Original amount","Final amount","Commission amount","Status","Guest request","Currency","Hotel id","Property name","City","Country"
+"4441090588","1621264980","2024-09-11T18:54:20","2024-11-01","2024-11-03","Coen Vredeveld","Coen Vredeveld","1","3","2","12.00","96.585","96.5854","11.5902","OK","","EUR","11461777","Lulebore Apartament 1","Tirana","Albania"
+"4562434323","1621264980","2024-11-03T20:40:50","2024-11-04","2024-11-11","Maksim Shuts","Maksim Shuts","1","2","7","12.00","338.049","338.0488","40.5659","OK","","EUR","11461777","Lulebore Apartament 1","Tirana","Albania"
